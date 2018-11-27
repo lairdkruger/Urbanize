@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Music Visualizer</title>
+        
+        <script src="src/canvas.js"></script>
+        <script src="src/creative_coding.js"></script>
+        <script src="src/mic.js"></script>
+        
+    </head>
+    
+    <body>
+        
+        <script>
+            var _0x2770=['call','background','addColorStop','push','intensity','radius','cos','angle','sin','mapWaveform','line','getRMS','peak_volume','lineWidth','strokeStyle','fillStyle','spectrum','canvas1','documentElement','requestFullscreen','webkitRequestFullscreen','mozRequestFullScreen','addEventListener','dblclick'];(function(_0x1bd366,_0x120949){var _0x308847=function(_0x1140e8){while(--_0x1140e8){_0x1bd366['push'](_0x1bd366['shift']());}};_0x308847(++_0x120949);}(_0x2770,0x191));var _0x5d5b=function(_0x4c9875,_0x1e3091){_0x4c9875=_0x4c9875-0x0;var _0x478feb=_0x2770[_0x4c9875];return _0x478feb;};var ctx=createCanvas(_0x5d5b('0x0'));function getreqfullscreen(){var _0x17e07d=document[_0x5d5b('0x1')];return _0x17e07d[_0x5d5b('0x2')]||_0x17e07d[_0x5d5b('0x3')]||_0x17e07d[_0x5d5b('0x4')]||_0x17e07d['msRequestFullscreen'];}canvas[_0x5d5b('0x5')](_0x5d5b('0x6'),function(){var _0x36e3a9=getreqfullscreen();_0x36e3a9[_0x5d5b('0x7')](document[_0x5d5b('0x1')]);});ctx[_0x5d5b('0x8')](0x0);var mic=new Microphone(0x100);var left_particles=[];var right_particles=[];var num_particles=0x4a;var radius=0x12c;var line_colour=rgb(0xff,0xff,0xff);var gradient=ctx['createRadialGradient'](w/0x2,h/0x2,w/0x2,w/0x2,h/0x2,w/0x4);gradient[_0x5d5b('0x9')](0x1,rgb(0xe6,0xe6,0xe6));gradient['addColorStop'](0x0,rgb(0xff,0xff,0xff));for(i=0x0;i<num_particles;i++){addLeftParticle(i);addRightParticle(i);}function addLeftParticle(_0x30bf8a){var _0x3e7a95=radians(halfDistributeAngles(i,num_particles))+Math['PI']/0x2;var _0x107043={'x':0x0,'y':0x0,'angle':_0x3e7a95,'radius':radius,'intensity':0x1};left_particles[_0x5d5b('0xa')](_0x107043);}function addRightParticle(_0x71140d){var _0x29b6f1=radians(halfDistributeAngles(i,num_particles))+Math['PI']/0x2+0.026;var _0x377e6c={'x':0x0,'y':0x0,'angle':_0x29b6f1,'radius':radius,'intensity':0x1};right_particles[_0x5d5b('0xa')](_0x377e6c);}function drawParticles(_0x3b7f45){for(i=0x0;i<num_particles;i++){waveform=mic['mapWaveform'](i,num_particles,0x1,h/0x2);pl=left_particles[i];pl[_0x5d5b('0xb')]=pl[_0x5d5b('0xc')]*waveform*_0x3b7f45;pl['x']=w/0x2+Math[_0x5d5b('0xd')](pl[_0x5d5b('0xe')])*radius+4.2;pl['y']=h/0x2+Math[_0x5d5b('0xf')](pl[_0x5d5b('0xe')])*radius;pr=right_particles[i];pr['x']=w-(w/0x2+Math[_0x5d5b('0xd')](pr['angle'])*radius)-4.2;pr['y']=h/0x2+Math[_0x5d5b('0xf')](pr[_0x5d5b('0xe')])*radius;}}function drawConnections(){for(i=0x0;i<num_particles-0x1;i++){pl1=left_particles[i];pl2=left_particles[i+0x1];pr1=right_particles[i];pr2=right_particles[i+0x1];waveform=mic[_0x5d5b('0x10')](i,num_particles,0x1,h*0x3);ctx['lineWidth']=0x32*waveform;ctx[_0x5d5b('0x11')](pl1['x'],pl1['y'],pl2['x'],pl2['y']);ctx[_0x5d5b('0x11')](pr1['x'],pr1['y'],pr2['x'],pr2['y']);}}function draw(){if(mic[_0x5d5b('0x12')](mic['spectrum'])>mic[_0x5d5b('0x13')]-0x14){ctx[_0x5d5b('0x14')]=0x3e8;ctx[_0x5d5b('0x15')]=rgb(0x0);ctx[_0x5d5b('0x16')]=gradient;ctx['fillRect'](0x0,0x0,w,h);}else{ctx[_0x5d5b('0x14')]=0x2;ctx[_0x5d5b('0x15')]=line_colour;ctx[_0x5d5b('0x8')](0x0,map(mic[_0x5d5b('0x12')](mic[_0x5d5b('0x17')]),0x0,0x64,0.25,0.1));}drawParticles(0x1);drawConnections();}
+            
+        </script>
+    </body>
+</html>
