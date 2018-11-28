@@ -1,1 +1,304 @@
-var _0x1a8a=['createScriptProcessor','onaudioprocess','getByteFrequencyData','waveform','vol','getRMS','peak_volume','createMediaStreamSource','connect','destination','log','getWaveform','length','floor','mapSound','getVol','getVolume','sqrt','getMix','push','bass','getMids','mids','getHighs','getSnares','snares','highs','getBassVol','getSnaresVol','slice','pow','matchNote','A#1','abs','spectrum','data','volume','sampleRate','AudioContext','getUserMedia','webkitGetUserMedia','addEventListener','load','Web\x20Audio\x20API\x20is\x20not\x20supported\x20in\x20this\x20browser','smoothingTimeConstant','fftSize'];(function(_0x16b519,_0x26c343){var _0x41faa7=function(_0x242094){while(--_0x242094){_0x16b519['push'](_0x16b519['shift']());}};_0x41faa7(++_0x26c343);}(_0x1a8a,0x136));var _0x1d0d=function(_0x427c6f,_0x517e3f){_0x427c6f=_0x427c6f-0x0;var _0x533658=_0x1a8a[_0x427c6f];return _0x533658;};function Microphone(_0x4c9cfe){var _0x46f28=_0x4c9cfe||0x800;this[_0x1d0d('0x0')]=new Uint8Array(_0x46f28/0x2);this[_0x1d0d('0x1')]=[];this[_0x1d0d('0x2')]=this['vol']=0x0;this['peak_volume']=0x0;this['waveform']=new Float32Array(_0x46f28/0x2);var _0x14e737=this;var _0x53ab0e=new AudioContext();var _0x3baa70=_0x53ab0e[_0x1d0d('0x3')];window[_0x1d0d('0x4')]=window[_0x1d0d('0x4')]||window['webkitAudioContext'];navigator[_0x1d0d('0x5')]=navigator[_0x1d0d('0x5')]||navigator[_0x1d0d('0x6')];window[_0x1d0d('0x7')](_0x1d0d('0x8'),_0x2ccbe0,![]);function _0x2ccbe0(){try{_0x2fe2f8(new AudioContext());}catch(_0x2050c0){console['error'](_0x2050c0);alert(_0x1d0d('0x9'));}}function _0x2fe2f8(_0x11c498){navigator[_0x1d0d('0x5')]({'audio':!![]},_0x313fb6,_0x40067d);function _0x313fb6(_0x2064ea){var _0x115b57=_0x11c498['createAnalyser']();_0x115b57[_0x1d0d('0xa')]=0.2;_0x115b57[_0x1d0d('0xb')]=_0x46f28;var _0x4553d2=_0x11c498[_0x1d0d('0xc')](_0x46f28*0x2,0x1,0x1);_0x4553d2[_0x1d0d('0xd')]=function(){_0x115b57[_0x1d0d('0xe')](_0x14e737['spectrum']);_0x14e737[_0x1d0d('0x1')]=_0x3bad34(_0x14e737[_0x1d0d('0x0')]);_0x115b57['getFloatTimeDomainData'](_0x14e737[_0x1d0d('0xf')]);_0x14e737[_0x1d0d('0x10')]=_0x14e737[_0x1d0d('0x11')](_0x14e737[_0x1d0d('0x0')]);if(_0x14e737['vol']>_0x14e737[_0x1d0d('0x12')])_0x14e737[_0x1d0d('0x12')]=_0x14e737['vol'];_0x14e737[_0x1d0d('0x2')]=_0x14e737['vol'];};var _0x17e1be=_0x11c498[_0x1d0d('0x13')](_0x2064ea);_0x17e1be[_0x1d0d('0x14')](_0x115b57);_0x115b57[_0x1d0d('0x14')](_0x4553d2);_0x4553d2[_0x1d0d('0x14')](_0x11c498[_0x1d0d('0x15')]);}function _0x40067d(){console[_0x1d0d('0x16')](arguments);}}this[_0x1d0d('0x17')]=function(){return _0x14e737['waveform'];};this['mapWaveform']=function(_0x221732,_0x108943,_0x5d1328,_0x3eb11f){if(_0x14e737['waveform'][_0x1d0d('0x18')]>0x0){var _0x48ff66=_0x5d1328||0x0;var _0x245456=_0x3eb11f||0x64;var _0x6e3123=Math[_0x1d0d('0x19')](_0x221732/_0x108943*_0x14e737[_0x1d0d('0xf')]['length']/0x2);return map(_0x14e737[_0x1d0d('0xf')][_0x6e3123],0x0,_0x14e737[_0x1d0d('0x12')],_0x48ff66,_0x245456);}else{return 0x0;}};this[_0x1d0d('0x1a')]=function(_0x42566d,_0x411db0,_0x56fb18,_0x1b455c){if(_0x14e737[_0x1d0d('0x0')][_0x1d0d('0x18')]>0x0){var _0x4bcdb6=_0x56fb18||0x0;var _0x116413=_0x1b455c||0x64;var _0x418376=Math['floor'](_0x42566d/_0x411db0*_0x14e737[_0x1d0d('0x1')][_0x1d0d('0x18')]);return map(_0x14e737[_0x1d0d('0x1')][_0x418376],0x0,_0x14e737[_0x1d0d('0x12')],_0x4bcdb6,_0x116413);}else{return 0x0;}};this['mapRawSound']=function(_0x1c63e7,_0x273b8a,_0x15e3ac,_0x46c5c4){if(_0x14e737[_0x1d0d('0x0')][_0x1d0d('0x18')]>0x0){var _0x3b7b5d=_0x15e3ac||0x0;var _0x3fe1d0=_0x46c5c4||0x64;var _0x339bd5=Math[_0x1d0d('0x19')](_0x1c63e7/_0x273b8a*_0x14e737[_0x1d0d('0x0')][_0x1d0d('0x18')]/0x2);return map(_0x14e737[_0x1d0d('0x0')][_0x339bd5],0x0,_0x14e737[_0x1d0d('0x12')],_0x3b7b5d,_0x3fe1d0);}else{return 0x0;}};this[_0x1d0d('0x1b')]=function(){_0x14e737[_0x1d0d('0x2')]=map(_0x14e737[_0x1d0d('0x10')],0x0,_0x14e737['peak_volume'],0x0,0x64);return _0x14e737[_0x1d0d('0x2')];};this[_0x1d0d('0x1c')]=function(){return this[_0x1d0d('0x1b')]();};this[_0x1d0d('0x11')]=function(_0x256f4c){var _0x3636aa=0x0;for(var _0x3a43e2=0x0;_0x3a43e2<_0x256f4c[_0x1d0d('0x18')];_0x3a43e2++){_0x3636aa+=_0x256f4c[_0x3a43e2]*_0x256f4c[_0x3a43e2];}_0x3636aa/=_0x256f4c['length'];_0x3636aa=Math[_0x1d0d('0x1d')](_0x3636aa);return _0x3636aa;};function _0x680b50(_0x294668){var _0xf5a3bc=_0x294668*_0x3baa70/_0x46f28;return _0xf5a3bc;}this[_0x1d0d('0x1e')]=function(){var _0x3be243=[];var _0x3f754b=[];var _0x1c604d=[];var _0x279190=[];for(var _0x536cee=0x0;_0x536cee<_0x14e737[_0x1d0d('0x0')][_0x1d0d('0x18')];_0x536cee++){var _0x197c16=_0x680b50(_0x536cee);var _0x29fb03=map(_0x14e737[_0x1d0d('0x0')][_0x536cee],0x0,_0x14e737[_0x1d0d('0x12')],0x0,0x64);if(_0x197c16>0x28&&_0x197c16<0x64){_0x1c604d[_0x1d0d('0x1f')](_0x29fb03);}if(_0x197c16>0x64&&_0x197c16<0x1770){_0x3f754b[_0x1d0d('0x1f')](_0x29fb03);}if(_0x197c16>0x1f40){_0x3be243[_0x1d0d('0x1f')](_0x29fb03);}if(_0x197c16>0xfa0&&_0x197c16<0x3e80){_0x279190[_0x1d0d('0x1f')](_0x29fb03);}}return{'bass':_0x1c604d,'mids':_0x3f754b,'highs':_0x3be243,'snares':_0x279190};};this['getBass']=function(){return this[_0x1d0d('0x1e')]()[_0x1d0d('0x20')];};this[_0x1d0d('0x21')]=function(){return this['getMix']()[_0x1d0d('0x22')];};this[_0x1d0d('0x23')]=function(){return this[_0x1d0d('0x1e')]()['highs'];};this[_0x1d0d('0x24')]=function(){return this[_0x1d0d('0x1e')]()[_0x1d0d('0x25')];};this['getHighsVol']=function(_0x110b9c,_0x4778a8){var _0x3dd439=_0x110b9c||0x0;var _0x26c64a=_0x4778a8||0x64;var _0x22f398=map(this[_0x1d0d('0x11')](this[_0x1d0d('0x1e')]()[_0x1d0d('0x26')]),0x0,_0x14e737[_0x1d0d('0x12')],_0x3dd439,_0x26c64a);return _0x22f398;};this['getMidsVol']=function(_0x2dabbb,_0x4e14e7){var _0x5631c5=_0x2dabbb||0x0;var _0x59d6f7=_0x4e14e7||0x64;var _0x5f1b37=map(this[_0x1d0d('0x11')](this[_0x1d0d('0x1e')]()[_0x1d0d('0x22')]),0x0,_0x14e737[_0x1d0d('0x12')],_0x5631c5,_0x59d6f7);return _0x5f1b37;};this[_0x1d0d('0x27')]=function(_0x79bca4,_0x56497f){var _0x3f39d8=_0x79bca4||0x0;var _0x474989=_0x56497f||0x64;var _0x385174=map(this['getRMS'](this[_0x1d0d('0x1e')]()[_0x1d0d('0x20')]),0x0,_0x14e737['peak_volume'],_0x3f39d8,_0x474989);return _0x385174;};this[_0x1d0d('0x28')]=function(_0x44520c,_0x25dcf7){var _0x113f4d=_0x44520c||0x0;var _0x2ef856=_0x25dcf7||0x64;var _0x3da260=map(this[_0x1d0d('0x11')](this['getMix']()[_0x1d0d('0x25')]),0x0,_0x14e737[_0x1d0d('0x12')],_0x113f4d,_0x2ef856);return _0x3da260;};function _0x3bad34(_0x8c74b6,_0x2bc4ba){_0x8c74b6[_0x1d0d('0x29')](0x0,_0x8c74b6['length']/0x2);var _0x10c15e=_0x2bc4ba||0x10;var _0x162b44=[],_0x2777c5=0x0,_0x5b153a=0x0;for(let _0x406822=0x1;_0x406822<=_0x10c15e;_0x406822++){var _0x1400d9,_0x1a5592,_0x30faa4;if(_0x406822%0x2===0x1){_0x1400d9=(_0x406822-0x1)/0x2;}else{_0x1400d9=_0x406822/0x2;}_0x1a5592=Math[_0x1d0d('0x2a')](0x2,_0x1400d9);if(_0x5b153a===0x1){_0x30faa4=0x0;}else{_0x30faa4=_0x2777c5+_0x5b153a/0x2;}var _0x18c2a2=0x0,_0x3baefb=0x0;for(let _0x14303c=_0x30faa4;_0x14303c<_0x30faa4+_0x1a5592;_0x14303c++){_0x3baefb+=_0x8c74b6[_0x14303c];_0x18c2a2=_0x3baefb/_0x1a5592;}_0x162b44[_0x1d0d('0x1f')](_0x18c2a2);_0x5b153a=_0x1a5592;_0x2777c5=_0x30faa4;}return _0x162b44;}this[_0x1d0d('0x2b')]=function(_0x3211a9){var _0x3e1bc1=_0x1d0d('0x2c');var _0x4079c3=58.2705;for(var _0x4baaa7 in notes){if(Math[_0x1d0d('0x2d')](notes[_0x4baaa7]-_0x3211a9)<=Math[_0x1d0d('0x2d')](notes[_0x3e1bc1]-_0x3211a9)){_0x3e1bc1=_0x4baaa7;_0x4079c3=notes[_0x4baaa7];}if(notes[_0x4baaa7]>_0x3211a9){break;}}return[_0x3e1bc1,_0x4079c3];};return this;};var Mic=new Microphone();
+
+
+function Microphone(_fft) {
+
+    var FFT_SIZE = _fft || 2048;
+
+    this.spectrum = new Uint8Array(FFT_SIZE/2);
+    this.data = [];
+    this.volume = this.vol = 0;
+    this.peak_volume = 0;
+    this.waveform = new Float32Array(FFT_SIZE/2);
+
+    var self = this;
+    var audioContext = new AudioContext();
+
+    var SAMPLE_RATE = audioContext.sampleRate;
+    window.AudioContext = window.AudioContext || window.webkitAudioContext;
+    navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia;
+
+    window.addEventListener('load', init, false);
+
+    function init () {
+        try {
+            startMic(new AudioContext());
+        }
+        catch (e) {
+            console.error(e);
+            alert('Web Audio API is not supported in this browser');
+        }
+    }
+
+
+    function startMic (context) {
+
+        navigator.getUserMedia({ audio: true }, processSound, error);
+
+        function processSound (stream) {
+
+            // analyser extracts frequency, waveform, and other data
+            var analyser = context.createAnalyser();
+            analyser.smoothingTimeConstant = 0.2;
+            analyser.fftSize = FFT_SIZE;
+
+            var node = context.createScriptProcessor(FFT_SIZE*2, 1, 1);
+            
+            node.onaudioprocess = function () {
+
+                // getByteFrequencyData returns the amplitude for each frequency
+                analyser.getByteFrequencyData(self.spectrum);
+                self.data = adjustFreqData(self.spectrum);
+           
+                // getByteTimeDomainData gets volumes over the sample time
+                analyser.getFloatTimeDomainData(self.waveform);
+                
+                self.vol = self.getRMS(self.spectrum);
+                // get peak
+                if (self.vol > self.peak_volume) self.peak_volume = self.vol;
+                self.volume = self.vol;
+            };
+
+            var input = context.createMediaStreamSource(stream);
+
+            input.connect(analyser);
+            analyser.connect(node);
+            node.connect(context.destination);
+
+        }
+
+        function error () {
+            console.log(arguments);
+        }
+    }
+
+    ///////////////////////////////////////////////
+    ////////////// SOUND UTILITIES  //////////////
+    /////////////////////////////////////////////
+    
+    this.getWaveform = function() {
+        //returns the time domain
+        return self.waveform;
+    }
+    
+    
+    this.mapWaveform = function(_me, _total, _min, _max){
+        if (self.waveform.length > 0) {
+            var min = _min || 0;
+            var max = _max || 100;
+            //actual new freq
+            var new_freq = Math.floor(_me/_total * (self.waveform.length)/2);
+            //console.log(self.spectrum[new_freq]);
+            // map the volumes to a useful number
+            return map(self.waveform[new_freq], 0, self.peak_volume, min, max);
+        } else {
+            return 0;
+        }
+    }
+    
+    
+    this.mapSound = function(_me, _total, _min, _max){
+        if (self.spectrum.length > 0) {
+            var min = _min || 0;
+            var max = _max || 100;
+            //actual new freq
+            var new_freq = Math.floor(_me /_total * self.data.length);
+            //console.log(self.spectrum[new_freq]);
+            // map the volumes to a useful number
+            return map(self.data[new_freq], 0, self.peak_volume, min, max);
+        } else {
+            return 0;
+        }
+
+    }
+
+    
+    this.mapRawSound = function(_me, _total, _min, _max){
+        if (self.spectrum.length > 0) {
+            var min = _min || 0;
+            var max = _max || 100;
+            //actual new freq
+            var new_freq = Math.floor(_me/_total * (self.spectrum.length)/2);
+            //console.log(self.spectrum[new_freq]);
+            // map the volumes to a useful number
+            return map(self.spectrum[new_freq], 0, self.peak_volume, min, max);
+        } else {
+            return 0;
+        }
+    }
+
+
+    this.getVol = function(){
+
+        // map total volume to 100 for convenience
+        self.volume = map(self.vol, 0, self.peak_volume, 0, 100);
+        return self.volume;
+    }
+
+    this.getVolume = function() { return this.getVol();}
+
+    //A more accurate way to get overall volume
+    this.getRMS = function (spectrum) {
+
+        var rms = 0;
+        for (var i = 0; i < spectrum.length; i++) {
+            rms += spectrum[i] * spectrum[i];
+        }
+        rms /= spectrum.length;
+        rms = Math.sqrt(rms);
+        return rms;
+    }
+
+    //freq = n * SAMPLE_RATE / MY_FFT_SIZE
+    function mapFreq(i){
+        var freq = i * SAMPLE_RATE / FFT_SIZE;
+        return freq;
+    }
+
+    // getMix function. Computes the current frequency with
+    // computeFreqFromFFT, then returns bass, mids and his
+    // sub bass : 0 > 100hz
+    // mid bass : 80 > 500hz
+    // mid range: 400 > 2000hz
+    // upper mid: 1000 > 6000hz
+    // high freq: 4000 > 12000hz
+    // Very high freq: 10000 > 20000hz and above
+
+    this.getMix = function(){
+        var highs = [];
+        var mids = [];
+        var bass = [];
+        var snares = [];
+        for (var i = 0; i < self.spectrum.length; i++) {
+            var band = mapFreq(i);
+            var v = map(self.spectrum[i], 0, self.peak_volume, 0, 100);
+            if (band > 40 && band < 100) {
+                bass.push(v);
+            }
+            if (band > 100 && band < 6000) {
+                mids.push(v);
+            }
+            if (band > 8000) {
+                highs.push(v);
+            }
+            if (band > 4000 && band < 16000) {
+                snares.push(v)
+            }
+        }
+        //console.log(bass);
+        return {bass: bass, mids: mids, highs: highs, snares: snares}
+    }
+
+
+    this.getBass = function(){
+        return this.getMix().bass;
+    }
+
+    this.getMids = function(){
+        return this.getMix().mids;
+    }
+
+    this.getHighs = function(){
+        return this.getMix().highs;
+    }
+    
+    this.getSnares = function() {
+        return this.getMix().snares;
+    }
+
+    this.getHighsVol = function(_min, _max){
+        var min = _min || 0;
+        var max = _max || 100;
+        var v = map(this.getRMS(this.getMix().highs), 0, self.peak_volume, min, max);
+        return v;
+    }
+
+    this.getMidsVol = function(_min, _max){
+        var min = _min || 0;
+        var max = _max || 100;
+        var v = map(this.getRMS(this.getMix().mids), 0, self.peak_volume, min, max);
+        return v;
+    }
+
+    this.getBassVol = function(_min, _max){
+        var min = _min || 0;
+        var max = _max || 100;
+        var v = map(this.getRMS(this.getMix().bass), 0, self.peak_volume, min, max);
+        return v;
+    }
+    
+    this.getSnaresVol = function(_min, _max) {
+        var min = _min || 0;
+        var max = _max || 100;
+        var v = map(this.getRMS(this.getMix().snares), 0, self.peak_volume, min, max);
+        return v;
+    }
+
+
+    function adjustFreqData(frequencyData, ammt) {
+        // get frequency data, remove obsolete
+        //analyserNode.getByteFrequencyData(frequencyData);
+
+        frequencyData.slice(0,frequencyData.length/2);
+        var new_length = ammt || 16;
+        var newFreqs = [], prevRangeStart = 0, prevItemCount = 0;
+        // looping for my new 16 items
+        for (let j=1; j<=new_length; j++) {
+            // define sample size
+            var pow, itemCount, rangeStart;
+            if (j%2 === 1) {
+                pow = (j-1)/2;
+            } else {
+                pow = j/2;
+            }
+            itemCount = Math.pow(2, pow);
+            if (prevItemCount === 1) {
+                rangeStart = 0;
+            } else {
+                rangeStart = prevRangeStart + (prevItemCount/2);
+            }
+
+            // get average value, add to new array
+            var newValue = 0, total = 0;
+            for (let k=rangeStart; k<rangeStart+itemCount; k++) {
+                // add up items and divide by total
+                total += frequencyData[k];
+                newValue = total/itemCount;
+            }
+            newFreqs.push(newValue);
+            // update
+            prevItemCount = itemCount;
+            prevRangeStart = rangeStart;
+        }
+        return newFreqs;
+    }
+
+
+    this.matchNote = function (freq) {
+        var closest = "A#1"; // Default closest note
+        var closestFreq = 58.2705;
+        for (var key in notes) { // Iterates through note look-up table
+            // If the current note in the table is closer to the given
+            // frequency than the current "closest" note, replace the
+            // "closest" note.
+            if (Math.abs(notes[key] - freq) <= Math.abs(notes[closest] - freq)) {
+                closest = key;
+                closestFreq = notes[key];
+            }
+            // Stop searching once the current note in the table is of higher
+            // frequency than the given frequency.
+            if (notes[key] > freq) {
+                break;
+            }
+        }
+
+        return [closest, closestFreq];
+    }
+
+
+    return this;
+
+};
+
+
+
+var Mic = new Microphone();

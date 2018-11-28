@@ -1,1 +1,1206 @@
-var _0x3f58=['eqDownTriangle','eqFillTriangle','eqTriangle','rotateDegrees','rotateDeg','round','rgb(','rgba(',',\x201)','%,\x20','hsla(','floor','max','min','replace','log','sqrt','random','spacing_x','length','num_items_horiz','num_items_vert','start','innerWidth','grid_h','innerHeight','add','grid_w','createGrid','setStart','push','spacing_y','weights','colour_list','pool','generateWeighedList','get','pixelate','getImageData','clearRect','background','buffer','data','ceil','createImageData','putImageData','height','fScaleToTargetWidth','width','targetleft','targettop','onmousedown','onmouseup','now','draw','function','frameRate','moz','requestAnimationFrame','RequestAnimationFrame','cancelAnimationFrame','CancelAnimationFrame','CancelRequestAnimationFrame','getTime','setTimeout','addEventListener','mousemove','clientX','clientY','mousedown','mouseup','keydown','load','prototype','colour','getColour','fillStyle','lineColour','colourName','makeCircle','beginPath','arc','circle','fill','fillCircle','closePath','strokeCircle','circleH','Hellipse','ellipse','lineTo','cos','sin','fillEllipse','HfillEllipse','strokeEllipse','stroke','square','fillRect','centreStrokeRect','strokeRect','centreFillRect','abs','quadraticCurveTo','line','moveTo','strokePolygon','polygon','fillPolygon','lineWidth','triangle','strokeTriangle','fillTriangle','eqDownFillTriangle','rotate','translate'];(function(_0x41fdd7,_0x451c7d){var _0x9222ea=function(_0x6aefcd){while(--_0x6aefcd){_0x41fdd7['push'](_0x41fdd7['shift']());}};_0x9222ea(++_0x451c7d);}(_0x3f58,0x131));var _0x42d1=function(_0x82ffb9,_0x2bf9ef){_0x82ffb9=_0x82ffb9-0x0;var _0x46d509=_0x3f58[_0x82ffb9];return _0x46d509;};var TWO_PI=Math['PI']*0x2;var p=CanvasRenderingContext2D[_0x42d1('0x0')];p[_0x42d1('0x1')]=function(_0x234ece,_0x415b72,_0x1267c1,_0x1743b7){'use strict';var _0x505d75=this[_0x42d1('0x2')](_0x234ece,_0x415b72,_0x1267c1,_0x1743b7);this[_0x42d1('0x3')]=_0x505d75;};p[_0x42d1('0x4')]=function(_0x1f9089,_0x181dc3,_0x1dc774,_0x2742ca){console['log'](_0x1f9089);this['strokeStyle']=this[_0x42d1('0x2')](_0x1f9089,_0x181dc3,_0x1dc774,_0x2742ca);};p[_0x42d1('0x5')]=function(_0x3a977b){'use strict';this[_0x42d1('0x3')]=_0x3a977b;};p[_0x42d1('0x2')]=function(_0x32260d,_0x272b92,_0x27dff2,_0x526aec){if(_0x272b92==undefined){c=rgb(_0x32260d,_0x32260d,_0x32260d);}else if(_0x27dff2==undefined&&_0x526aec==undefined){c=rgba(_0x32260d,_0x32260d,_0x32260d,_0x272b92);}else if(_0x526aec==undefined){c=rgb(_0x32260d,_0x272b92,_0x27dff2);}else{c=rgba(_0x32260d,_0x272b92,_0x27dff2,_0x526aec);}return c;};p[_0x42d1('0x6')]=function(_0x7182b6,_0x3465b0,_0x329aa4){'use strict';this[_0x42d1('0x7')]();this[_0x42d1('0x8')](_0x7182b6,_0x3465b0,_0x329aa4/0x2,0x0,Math['PI']*0x2,!![]);};p[_0x42d1('0x9')]=function(_0x17ffe7,_0x56b190,_0x41425d){'use strict';this[_0x42d1('0x6')](_0x17ffe7,_0x56b190,_0x41425d);this[_0x42d1('0xa')]();this['closePath']();};p[_0x42d1('0xb')]=function(_0x942d5b,_0x37114f,_0x5e5c0f){'use strict';this[_0x42d1('0x6')](_0x942d5b,_0x37114f,_0x5e5c0f);this[_0x42d1('0xa')]();this[_0x42d1('0xc')]();};p[_0x42d1('0xd')]=function(_0x224748,_0x39627d,_0xb4c0be){'use strict';this['makeCircle'](_0x224748,_0x39627d,_0xb4c0be);this['stroke']();this['closePath']();};p[_0x42d1('0xe')]=function(_0x38fc7f,_0x3d68a9,_0x4d8fe3,_0x479404){'use strict';if(_0x479404==undefined){_0x479404=_0x4d8fe3;}this[_0x42d1('0xf')](_0x38fc7f,_0x3d68a9,_0x4d8fe3,_0x479404);this[_0x42d1('0xa')]();this[_0x42d1('0xc')]();};p[_0x42d1('0x10')]=function(_0x1f138c,_0x3afa8b,_0x2f64ad,_0x5b50fa){'use strict';if(_0x5b50fa==undefined){_0x5b50fa=_0x2f64ad;}this[_0x42d1('0x7')]();for(var _0x19954c=0x0;_0x19954c<Math['PI']*0x2;_0x19954c+=Math['PI']/0x10){this[_0x42d1('0x11')](_0x1f138c+Math[_0x42d1('0x12')](_0x19954c)*_0x2f64ad/0x2,_0x3afa8b+Math[_0x42d1('0x13')](_0x19954c)*_0x5b50fa/0x2);}this[_0x42d1('0xc')]();};p[_0x42d1('0xf')]=function(_0x462360,_0xa9bbc8,_0x21507b,_0x23f242){'use strict';if(_0x23f242==undefined){_0x23f242=_0x21507b;}this[_0x42d1('0x7')]();for(var _0x223520=0x0;_0x223520<Math['PI']*0x2;_0x223520+=Math['PI']/0x40){this[_0x42d1('0x11')](_0x462360+Math[_0x42d1('0x12')](_0x223520)*_0x21507b/0x2,_0xa9bbc8+Math['sin'](_0x223520)*_0x23f242/0x2);}this['closePath']();};p[_0x42d1('0x14')]=function(_0x3a0196,_0x25c07f,_0x51d4a8,_0x2f10fc){'use strict';if(_0x2f10fc==undefined)_0x2f10fc=_0x51d4a8;this[_0x42d1('0x10')](_0x3a0196,_0x25c07f,_0x51d4a8,_0x2f10fc);this['fill']();this[_0x42d1('0x7')]();};p[_0x42d1('0x15')]=function(_0x2f1401,_0x42b29d,_0x5d09a4,_0xfb83ef){if(_0xfb83ef==undefined)_0xfb83ef=_0x5d09a4;this[_0x42d1('0xf')](_0x2f1401,_0x42b29d,_0x5d09a4,_0xfb83ef);this[_0x42d1('0xa')]();this['beginPath']();};p[_0x42d1('0x16')]=function(_0x6efd98,_0x14ddf3,_0x310687,_0x3720a7){if(_0x3720a7==undefined)_0x3720a7=_0x310687;this[_0x42d1('0x10')](_0x6efd98,_0x14ddf3,_0x310687,_0x3720a7);this[_0x42d1('0x17')]();this[_0x42d1('0x7')]();};p['HstrokeEllipse']=function(_0x3c4a8d,_0x10b178,_0x52c065,_0x4f601b){if(_0x4f601b==undefined){_0x4f601b=_0x52c065;}this[_0x42d1('0xf')](_0x3c4a8d,_0x10b178,_0x52c065,_0x4f601b);this[_0x42d1('0x17')]();this['beginPath']();};p[_0x42d1('0x18')]=function(_0x33739b,_0x13c070,_0x3f8c91,_0x5bf36a){if(_0x5bf36a==undefined)_0x5bf36a=_0x3f8c91;this[_0x42d1('0x19')](_0x33739b,_0x13c070,_0x3f8c91,_0x5bf36a);};p[_0x42d1('0x1a')]=function(_0x64884e,_0x1d5259,_0x369066,_0x21dafa){this[_0x42d1('0x1b')](_0x64884e-_0x369066/0x2,_0x1d5259-_0x21dafa/0x2,_0x369066,_0x21dafa);};p[_0x42d1('0x1c')]=function(_0x45dfcd,_0x1fea27,_0x1ce766,_0x3545a5){this[_0x42d1('0x19')](_0x45dfcd-_0x1ce766/0x2,_0x1fea27-_0x3545a5/0x2,_0x1ce766,_0x3545a5);};p['roundRect']=function(_0x1eda7e,_0x367124,_0x469f89,_0x57259d,_0xdfa67a,_0x28514d,_0x27d178){_0x28514d=_0x28514d||!![];_0x27d178=_0x27d178||![];_0x469f89=Math['abs'](_0x469f89);_0x57259d=Math[_0x42d1('0x1d')](_0x57259d);radius=_0xdfa67a||0x5;_0x1eda7e=_0x1eda7e-_0x469f89/0x2;_0x367124=_0x367124-_0x57259d/0x2;if(_0x469f89<radius)radius=_0x469f89;radius={'tl':radius,'tr':radius,'br':radius,'bl':radius};this['beginPath']();this['moveTo'](_0x1eda7e+radius['tl'],_0x367124);this[_0x42d1('0x11')](_0x1eda7e+_0x469f89-radius['tr'],_0x367124);this[_0x42d1('0x1e')](_0x1eda7e+_0x469f89,_0x367124,_0x1eda7e+_0x469f89,_0x367124+radius['tr']);this[_0x42d1('0x11')](_0x1eda7e+_0x469f89,_0x367124+_0x57259d-radius['br']);this[_0x42d1('0x1e')](_0x1eda7e+_0x469f89,_0x367124+_0x57259d,_0x1eda7e+_0x469f89-radius['br'],_0x367124+_0x57259d);this[_0x42d1('0x11')](_0x1eda7e+radius['bl'],_0x367124+_0x57259d);this[_0x42d1('0x1e')](_0x1eda7e,_0x367124+_0x57259d,_0x1eda7e,_0x367124+_0x57259d-radius['bl']);this[_0x42d1('0x11')](_0x1eda7e,_0x367124+radius['tl']);this[_0x42d1('0x1e')](_0x1eda7e,_0x367124,_0x1eda7e+radius['tl'],_0x367124);this[_0x42d1('0xc')]();if(_0x28514d){this[_0x42d1('0xa')]();}if(_0x27d178){this[_0x42d1('0x17')]();}};p[_0x42d1('0x1f')]=function(_0x3cf964,_0x3191e5,_0x1a9a27,_0x295414){this[_0x42d1('0x7')]();this[_0x42d1('0x20')](_0x3cf964,_0x3191e5);this[_0x42d1('0x11')](_0x1a9a27,_0x295414);this[_0x42d1('0x17')]();this['beginPath']();};p[_0x42d1('0x21')]=function(_0x3038ee,_0x38e47d,_0x17f4c2,_0x5b45c1){this[_0x42d1('0x22')](_0x3038ee,_0x38e47d,_0x17f4c2,_0x5b45c1);this['stroke']();};p[_0x42d1('0x23')]=function(_0x34b61e,_0x461a7b,_0x1690bc,_0x499507){this[_0x42d1('0x22')](_0x34b61e,_0x461a7b,_0x1690bc,_0x499507);this['fill']();};p['outlinedPolygon']=function(_0xb3ad6,_0x45f75a,_0x13f3b9,_0x3a06d6,_0x3f4d39,_0x459883){this['fillStyle']=_0x3f4d39;this['fillPolygon'](_0xb3ad6,_0x45f75a,_0x13f3b9,_0x3a06d6);this['strokeStyle']=_0x459883;this['strokePolygon'](_0xb3ad6,_0x45f75a,_0x13f3b9,_0x3a06d6);};p[_0x42d1('0x22')]=function(_0x175ea5,_0x4a4460,_0xd6d69e,_0x56ed94){this[_0x42d1('0x7')]();this['moveTo'](_0x175ea5+_0x56ed94*Math[_0x42d1('0x12')](0x0),_0x4a4460+_0x56ed94*Math[_0x42d1('0x13')](0x0));for(var _0x31843b=0x1;_0x31843b<=_0xd6d69e;_0x31843b+=0x1){this[_0x42d1('0x11')](_0x175ea5+_0x56ed94*Math[_0x42d1('0x12')](_0x31843b*0x2*Math['PI']/_0xd6d69e),_0x4a4460+_0x56ed94*Math['sin'](_0x31843b*0x2*Math['PI']/_0xd6d69e));}};p['strokeWeight']=function(_0xe943d0){this[_0x42d1('0x24')]=_0xe943d0;};p[_0x42d1('0x25')]=function(_0x209b26,_0x41dc55,_0x128a03,_0x26ace1,_0x569173,_0x51d1bb){'use strict';this[_0x42d1('0x7')]();this[_0x42d1('0x20')](_0x209b26,_0x41dc55);this[_0x42d1('0x11')](_0x128a03,_0x26ace1);this[_0x42d1('0x11')](_0x569173,_0x51d1bb);this['lineTo'](_0x209b26,_0x41dc55);this[_0x42d1('0x17')]();this['closePath']();};p[_0x42d1('0x26')]=function(_0xcd44e6,_0x4e4219,_0x390c94,_0x4d560b,_0xc309c5,_0x4999d3){this['beginPath']();this[_0x42d1('0x20')](_0xcd44e6,_0x4e4219);this[_0x42d1('0x11')](_0x390c94,_0x4d560b);this[_0x42d1('0x11')](_0xc309c5,_0x4999d3);this[_0x42d1('0x11')](_0xcd44e6,_0x4e4219);this[_0x42d1('0x17')]();this[_0x42d1('0xc')]();};p[_0x42d1('0x27')]=function(_0x178a75,_0x51c04f,_0x5d743f,_0x54ec33,_0x52a501,_0x13f8fc){this[_0x42d1('0x7')]();this[_0x42d1('0x20')](_0x178a75,_0x51c04f);this[_0x42d1('0x11')](_0x5d743f,_0x54ec33);this[_0x42d1('0x11')](_0x52a501,_0x13f8fc);this[_0x42d1('0x11')](_0x178a75,_0x51c04f);this[_0x42d1('0xa')]();this[_0x42d1('0xc')]();};p[_0x42d1('0x28')]=function(_0x56d21d,_0x3a487e,_0x5bae37,_0x7fb4d8){this['translate'](_0x56d21d,_0x3a487e);this[_0x42d1('0x29')](radians(0xb4));this[_0x42d1('0x27')](0x0,0x0-_0x5bae37,0x0+_0x5bae37,0x0+_0x5bae37/0x2,0x0-_0x5bae37,0x0+_0x5bae37/0x2);this[_0x42d1('0x29')](radians(-0xb4));this[_0x42d1('0x2a')](-_0x56d21d,-_0x3a487e);};p[_0x42d1('0x2b')]=function(_0x5ba716,_0x4f6d41,_0x8b947c,_0x102fb0){this[_0x42d1('0x2a')](_0x5ba716,_0x4f6d41);this[_0x42d1('0x29')](radians(0xb4));this[_0x42d1('0x25')](0x0,0x0-_0x8b947c,0x0+_0x8b947c,0x0+_0x8b947c/0x2,0x0-_0x8b947c,0x0+_0x8b947c/0x2);this[_0x42d1('0x29')](radians(-0xb4));this['translate'](-_0x5ba716,-_0x4f6d41);};p[_0x42d1('0x2c')]=function(_0xd35549,_0x134c51,_0x29290c,_0x3c6cda){this[_0x42d1('0x27')](_0xd35549,_0x134c51-_0x29290c,_0xd35549+_0x29290c,_0x134c51+_0x29290c/0x2,_0xd35549-_0x29290c,_0x134c51+_0x29290c/0x2);};p[_0x42d1('0x2d')]=function(_0x419162,_0x5968e0,_0x534fdc,_0x4e6200){this[_0x42d1('0x25')](_0x419162,_0x5968e0-_0x534fdc,_0x419162+_0x534fdc,_0x5968e0+_0x534fdc/0x2,_0x419162-_0x534fdc,_0x5968e0+_0x534fdc/0x2);};p['background']=function(_0x28a7b5,_0x3634d4,_0x247d95,_0x47e370){if(_0x3634d4==undefined){this[_0x42d1('0x3')]=rgb(_0x28a7b5,_0x28a7b5,_0x28a7b5);}else if(_0x247d95==undefined&&_0x47e370==undefined){this[_0x42d1('0x3')]=rgba(_0x28a7b5,_0x28a7b5,_0x28a7b5,_0x3634d4);}else if(_0x47e370==undefined){this['fillStyle']=rgb(_0x28a7b5,_0x3634d4,_0x247d95);}else{this['fillStyle']=rgba(_0x28a7b5,_0x3634d4,_0x247d95,_0x47e370);}this[_0x42d1('0x19')](0x0,0x0,w,h);};p[_0x42d1('0x2e')]=function(_0x2c1722){this[_0x42d1('0x29')](radians(_0x2c1722));};p[_0x42d1('0x2f')]=function(_0x4efd49){this['rotate'](radians(_0x4efd49));};function radians(_0x5461c0){return _0x5461c0*Math['PI']/0xb4;};function degrees(_0x1a7935){return _0x1a7935*0xb4/Math['PI'];};function degreesToPoint(_0x50b14a,_0x367a20){var _0x2d1b5f=Math['PI']*_0x50b14a/0xb4;var _0x2cc1e1=_0x367a20/0x2;return{'x':_0x2cc1e1*Math['cos'](_0x2d1b5f),'y':_0x2cc1e1*Math[_0x42d1('0x13')](_0x2d1b5f)};}function distributeAngles(_0x26a4fa,_0x4e8984){return _0x26a4fa/_0x4e8984*0x168;}function halfDistributeAngles(_0x38853d,_0x5ce085){return _0x38853d/_0x5ce085*0xb5;}function quarterDistributeAngles(_0x58e46f,_0x3c2648){return _0x58e46f/_0x3c2648*0x5b;}function xyz(_0x17aa63,_0xa3eb80,_0x493cdb,_0x56e033,_0x62c2f5,_0x52f04f){var _0x550ce3=Math[_0x42d1('0x12')](_0x52f04f);var _0x29e6ea=Math[_0x42d1('0x13')](_0x52f04f);var _0x205389=Math[_0x42d1('0x12')](_0x56e033);var _0x29cba7=Math[_0x42d1('0x13')](_0x56e033);var _0x508c21=Math[_0x42d1('0x12')](_0x62c2f5);var _0x12fb22=Math[_0x42d1('0x13')](_0x62c2f5);var _0x56a6ad=_0x550ce3*_0x205389;var _0x35cb12=_0x550ce3*_0x29cba7*_0x12fb22-_0x29e6ea*_0x508c21;var _0x5d331e=_0x550ce3*_0x29cba7*_0x508c21+_0x29e6ea*_0x12fb22;var _0x2d1071=_0x29e6ea*_0x205389;var _0x135a78=_0x29e6ea*_0x29cba7*_0x12fb22+_0x550ce3*_0x508c21;var _0x1fff3d=_0x29e6ea*_0x29cba7*_0x508c21-_0x550ce3*_0x12fb22;var _0xe65be4=-_0x29cba7;var _0x181acc=_0x205389*_0x12fb22;var _0xe85769=_0x205389*_0x508c21;x=_0x56a6ad*_0x17aa63+_0x35cb12*_0xa3eb80+_0x5d331e*_0x493cdb;y=_0x2d1071*_0x17aa63+_0x135a78*_0xa3eb80+_0x1fff3d*_0x493cdb;z=_0xe65be4*_0x17aa63+_0x181acc*_0xa3eb80+_0xe85769*_0x493cdb;return{'x':x,'y':y,'z':z};}function rgb(_0x1086a7,_0x5cd117,_0x284bcd){if(_0x5cd117==undefined)_0x5cd117=_0x1086a7;if(_0x284bcd==undefined)_0x284bcd=_0x1086a7;return'rgb('+clamp(Math[_0x42d1('0x30')](_0x1086a7),0x0,0xff)+',\x20'+clamp(Math[_0x42d1('0x30')](_0x5cd117),0x0,0xff)+',\x20'+clamp(Math[_0x42d1('0x30')](_0x284bcd),0x0,0xff)+')';};function rgba(_0x16a0da,_0x7a6a45,_0x5e2bb7,_0x1f77e0){if(_0x7a6a45==undefined){return _0x42d1('0x31')+clamp(Math[_0x42d1('0x30')](_0x16a0da),0x0,0xff)+',\x20'+clamp(Math[_0x42d1('0x30')](_0x16a0da),0x0,0xff)+',\x20'+clamp(Math[_0x42d1('0x30')](_0x16a0da),0x0,0xff)+')';}else if(_0x5e2bb7==undefined){return'rgba('+clamp(Math[_0x42d1('0x30')](_0x16a0da),0x0,0xff)+',\x20'+clamp(Math['round'](_0x16a0da),0x0,0xff)+',\x20'+clamp(Math[_0x42d1('0x30')](_0x16a0da),0x0,0xff)+',\x20'+clamp(_0x7a6a45,0x0,0x1)+')';}else if(_0x1f77e0==undefined){return _0x42d1('0x32')+clamp(Math['round'](_0x16a0da),0x0,0xff)+',\x20'+clamp(Math['round'](_0x7a6a45),0x0,0xff)+',\x20'+clamp(Math[_0x42d1('0x30')](_0x5e2bb7),0x0,0xff)+_0x42d1('0x33');}else{return _0x42d1('0x32')+clamp(Math[_0x42d1('0x30')](_0x16a0da),0x0,0xff)+',\x20'+clamp(Math['round'](_0x7a6a45),0x0,0xff)+',\x20'+clamp(Math[_0x42d1('0x30')](_0x5e2bb7),0x0,0xff)+',\x20'+clamp(_0x1f77e0,0x0,0x1)+')';}};function hsl(_0x455e8d,_0x4385ca,_0xd14a40){return'hsl('+_0x455e8d+',\x20'+clamp(_0x4385ca,0x0,0x64)+_0x42d1('0x34')+clamp(_0xd14a40,0x0,0x64)+'%)';};function hsla(_0x2a8c63,_0x47a3b5,_0x28ae19,_0x53ad35){return _0x42d1('0x35')+_0x2a8c63+',\x20'+clamp(_0x47a3b5,0x0,0x64)+'%,\x20'+clamp(_0x28ae19,0x0,0x64)+'%,\x20'+clamp(_0x53ad35,0x0,0x1)+')';};function brightness(_0x3e7391,_0x4aa352,_0x3de2b5,_0x9e367c){var _0x9e367c=_0x9e367c||0x64;return Math[_0x42d1('0x36')](rgbToHsl(_0x3e7391,_0x4aa352,_0x3de2b5)[0x2]*_0x9e367c);};function rgbToHsl(_0x389c72,_0x3c8a0c,_0x42687f){_0x389c72/=0xff,_0x3c8a0c/=0xff,_0x42687f/=0xff;var _0x35397e=Math[_0x42d1('0x37')](_0x389c72,_0x3c8a0c,_0x42687f),_0x3fd011=Math[_0x42d1('0x38')](_0x389c72,_0x3c8a0c,_0x42687f);var _0x5610fc,_0x2171a2,_0x2d549d=(_0x35397e+_0x3fd011)/0x2;if(_0x35397e==_0x3fd011){_0x5610fc=_0x2171a2=0x0;}else{var _0xfa940=_0x35397e-_0x3fd011;_0x2171a2=_0x2d549d>0.5?_0xfa940/(0x2-_0x35397e-_0x3fd011):_0xfa940/(_0x35397e+_0x3fd011);switch(_0x35397e){case _0x389c72:_0x5610fc=(_0x3c8a0c-_0x42687f)/_0xfa940+(_0x3c8a0c<_0x42687f?0x6:0x0);break;case _0x3c8a0c:_0x5610fc=(_0x42687f-_0x389c72)/_0xfa940+0x2;break;case _0x42687f:_0x5610fc=(_0x389c72-_0x3c8a0c)/_0xfa940+0x4;break;}_0x5610fc/=0x6;}return[_0x5610fc,_0x2171a2,_0x2d549d];}function hexToRgb(_0x55f0e2){var _0x59563d=/^#?([a-f\d])([a-f\d])([a-f\d])$/i;_0x55f0e2=_0x55f0e2[_0x42d1('0x39')](_0x59563d,function(_0x500d28,_0x52d7cb,_0x5ed3b1,_0x5662e1){return _0x52d7cb+_0x52d7cb+_0x5ed3b1+_0x5ed3b1+_0x5662e1+_0x5662e1;});var _0x35de6c=/^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i['exec'](_0x55f0e2);return _0x35de6c?{'r':parseInt(_0x35de6c[0x1],0x10),'g':parseInt(_0x35de6c[0x2],0x10),'b':parseInt(_0x35de6c[0x3],0x10)}:null;}function hslToRgb(_0x414b9,_0x370239,_0x1155dd){var _0x5101b4,_0x495dcb,_0x9c9418;if(_0x370239==0x0){_0x5101b4=_0x495dcb=_0x9c9418=_0x1155dd;}else{var _0x2560fd=function _0x2560fd(_0x5a29f9,_0x5295d8,_0x11b70a){if(_0x11b70a<0x0)_0x11b70a+=0x1;if(_0x11b70a>0x1)_0x11b70a-=0x1;if(_0x11b70a<0x1/0x6)return _0x5a29f9+(_0x5295d8-_0x5a29f9)*0x6*_0x11b70a;if(_0x11b70a<0x1/0x2)return _0x5295d8;if(_0x11b70a<0x2/0x3)return _0x5a29f9+(_0x5295d8-_0x5a29f9)*(0x2/0x3-_0x11b70a)*0x6;return _0x5a29f9;};var _0x18763e=_0x1155dd<0.5?_0x1155dd*(0x1+_0x370239):_0x1155dd+_0x370239-_0x1155dd*_0x370239;var _0x38f53c=0x2*_0x1155dd-_0x18763e;_0x5101b4=_0x2560fd(_0x38f53c,_0x18763e,_0x414b9+0x1/0x3);_0x495dcb=_0x2560fd(_0x38f53c,_0x18763e,_0x414b9);_0x9c9418=_0x2560fd(_0x38f53c,_0x18763e,_0x414b9-0x1/0x3);}return[Math[_0x42d1('0x30')](_0x5101b4*0xff),Math[_0x42d1('0x30')](_0x495dcb*0xff),Math[_0x42d1('0x30')](_0x9c9418*0xff)];}function map(_0x497c1f,_0x4c6be5,_0x418e30,_0xa93a4,_0x5a7e7a,_0x298fe2){var _0x88c498=(_0x497c1f-_0x4c6be5)/(_0x418e30-_0x4c6be5)*(_0x5a7e7a-_0xa93a4)+_0xa93a4;if(_0x298fe2){return clamp(_0x88c498,_0xa93a4,_0x5a7e7a);}else{return _0x88c498;};};function log(_0x571a30){console[_0x42d1('0x3a')](_0x571a30);}function clamp(_0x3d5376,_0x3da18e,_0x8b5d0d){return Math[_0x42d1('0x38')](Math[_0x42d1('0x37')](_0x3d5376,Math[_0x42d1('0x38')](_0x3da18e,_0x8b5d0d)),Math['max'](_0x3da18e,_0x8b5d0d));}function inRange(_0x4a2fcc){return _0x4a2fcc>=Math[_0x42d1('0x38')](min,max)&&_0x4a2fcc<=Math[_0x42d1('0x37')](min,max);}function dist(_0x381c0f,_0xa19d4f,_0x441420,_0x9c57){_0x441420-=_0x381c0f;_0x9c57-=_0xa19d4f;return Math[_0x42d1('0x3b')](_0x441420*_0x441420+_0x9c57*_0x9c57);}function random(_0x443695,_0x2a3b26){if(_0x443695===undefined){_0x443695=0x0;_0x2a3b26=0x1;}else if(_0x2a3b26===undefined){_0x2a3b26=_0x443695;_0x443695=0x0;}return Math[_0x42d1('0x3c')]()*(_0x2a3b26-_0x443695)+_0x443695;};function randomP(_0x4e7c61,_0x294268){if(_0x4e7c61===undefined){_0x4e7c61=0.1;_0x294268=0x1;}else if(_0x294268===undefined){_0x294268=_0x4e7c61;_0x4e7c61=0.1;}return Math[_0x42d1('0x3c')]()*(_0x294268-_0x4e7c61)+_0x4e7c61;};function randomInt(_0x3eff1a,_0x4a4124){if(_0x4a4124===undefined){_0x4a4124=_0x3eff1a;_0x3eff1a=0x0;}return Math[_0x42d1('0x36')](Math[_0x42d1('0x3c')]()*(_0x4a4124+0x1-_0x3eff1a))+_0x3eff1a;}function randomColour(){var _0x2116a6=randomInt(0xff);var _0x44a63f=randomInt(0xff);var _0x4851c6=randomInt(0xff);return rgb(_0x2116a6,_0x44a63f,_0x4851c6);}function tween(_0x547d7a,_0x515485,_0x45ec09){if(_0x45ec09==undefined)_0x45ec09=0x14;_0x547d7a+=(_0x515485-_0x547d7a)/_0x45ec09;return _0x547d7a;}function chance(_0x301b87){return random(_0x301b87)>_0x301b87-0x1;}function posNeg(){return randomInt(0x0,0x1)*0x2-0x1;}function angle(_0x2d660a,_0x58d92f,_0x3ee941,_0x2abbfa){var _0x130191=_0x2abbfa-_0x58d92f;var _0x2623fc=_0x3ee941-_0x2d660a;var _0x3efb22=Math['atan2'](_0x130191,_0x2623fc);_0x3efb22*=0xb4/Math['PI'];if(_0x3efb22<0x0)_0x3efb22=0x168+_0x3efb22;if(_0x3efb22==0x168)_0x3efb22=0x0;return _0x3efb22;}function bounce(_0x41f67d,_0x56819b,_0x335f4e,_0xbc54d7){if(_0xbc54d7===undefined){_0xbc54d7=0x0;}if(_0x41f67d>=_0x335f4e-_0xbc54d7/0x2||_0x41f67d-_0xbc54d7/0x2<=_0x56819b){return 0x1;}else{return 0x0;}}function checkIntersection(_0x5ee405,_0x22512f,_0x4d9fb3,_0x3a5b3f,_0x5e6c09,_0x26a4ec,_0x1da074,_0x5e7405){if(_0x5ee405===_0x5e6c09&&_0x22512f==_0x26a4ec||_0x5ee405===_0x1da074&&_0x22512f==_0x5e7405||_0x4d9fb3===_0x5e6c09&&_0x3a5b3f==_0x26a4ec||_0x4d9fb3===_0x1da074&&_0x3a5b3f==_0x5e7405){return![];}var _0x35a389=(_0x5e7405-_0x26a4ec)*(_0x4d9fb3-_0x5ee405)-(_0x1da074-_0x5e6c09)*(_0x3a5b3f-_0x22512f);var _0xb15e5=(_0x1da074-_0x5e6c09)*(_0x22512f-_0x26a4ec)-(_0x5e7405-_0x26a4ec)*(_0x5ee405-_0x5e6c09);var _0x1b4594=(_0x4d9fb3-_0x5ee405)*(_0x22512f-_0x26a4ec)-(_0x3a5b3f-_0x22512f)*(_0x5ee405-_0x5e6c09);if(_0x35a389===0x0||_0xb15e5===0x0&&_0x1b4594===0x0){return![];}var _0x797801=_0xb15e5/_0x35a389;var _0x50d1ad=_0x1b4594/_0x35a389;if(_0x797801>=0x0&&_0x797801<=0x1&&_0x50d1ad>=0x0&&_0x50d1ad<=0x1){return[_0x797801*(_0x4d9fb3-_0x5ee405)+_0x5ee405,_0x797801*(_0x3a5b3f-_0x22512f)+_0x22512f];}}function lineCircleCollide(_0x5e36de,_0x31b122,_0x252275,_0x13c727,_0x4c2459){var _0x305f9e={'x':0x0,'y':0x0};if(pointCircleCollide(_0x5e36de,_0x252275,_0x13c727)){if(_0x4c2459){_0x4c2459['x']=_0x5e36de['x'];_0x4c2459['y']=_0x5e36de['y'];}return!![];}if(pointCircleCollide(_0x31b122,_0x252275,_0x13c727)){if(_0x4c2459){_0x4c2459['x']=_0x31b122['x'];_0x4c2459['y']=_0x31b122['y'];}return!![];}var _0x137a43=_0x5e36de['x'],_0x240937=_0x5e36de['y'],_0x2b5df3=_0x31b122['x'],_0xaeb5b3=_0x31b122['y'],_0x242b6e=_0x252275['x'],_0x424d70=_0x252275['y'];var _0x5ad3df=_0x2b5df3-_0x137a43;var _0x1ae067=_0xaeb5b3-_0x240937;var _0x23afa3=_0x242b6e-_0x137a43;var _0x119981=_0x424d70-_0x240937;var _0x3d2f94=_0x5ad3df*_0x5ad3df+_0x1ae067*_0x1ae067;var _0x46a7ae=_0x5ad3df;var _0x4810eb=_0x1ae067;if(_0x3d2f94>0x0){var _0x11d25b=(_0x23afa3*_0x5ad3df+_0x119981*_0x1ae067)/_0x3d2f94;_0x46a7ae*=_0x11d25b;_0x4810eb*=_0x11d25b;}if(!_0x4c2459)_0x4c2459=_0x305f9e;_0x4c2459['x']=_0x137a43+_0x46a7ae;_0x4c2459['y']=_0x240937+_0x4810eb;var _0x5a9ecb=_0x46a7ae*_0x46a7ae+_0x4810eb*_0x4810eb;return pointCircleCollide(_0x4c2459,_0x252275,_0x13c727)&&_0x5a9ecb<=_0x3d2f94&&_0x46a7ae*_0x5ad3df+_0x4810eb*_0x1ae067>=0x0;}function pointCircleCollide(_0x1b7291,_0x9bbd5,_0x114a3c){if(_0x114a3c===0x0)return![];var _0xbae0c1=_0x9bbd5['x']-_0x1b7291['x'];var _0x4936b0=_0x9bbd5['y']-_0x1b7291['y'];return _0xbae0c1*_0xbae0c1+_0x4936b0*_0x4936b0<=_0x114a3c*_0x114a3c;}function cross(_0x53ee9b,_0x2503dd,_0x392477,_0x916b23){if(_0x392477===undefined)_0x392477=0x14;if(_0x916b23===undefined)_0x916b23=0x3c;ctx[_0x42d1('0x19')](_0x53ee9b-_0x392477/0x2,_0x2503dd-_0x916b23/0x2,_0x392477,_0x916b23);ctx[_0x42d1('0x19')](_0x53ee9b-_0x916b23/0x2,_0x2503dd-_0x392477/0x2,_0x916b23,_0x392477);}function makeGrid(_0x19b31b,_0x23be7f){var _0x478f5e=[];var _0x10328a=0x0;for(var _0x42be10=0x0;_0x42be10<_0x23be7f;_0x42be10++){for(var _0x5c7c87=0x0;_0x5c7c87<_0x19b31b;_0x5c7c87++){_0x478f5e[_0x10328a]=[_0x5c7c87,_0x42be10];_0x10328a++;}};return _0x478f5e;}function Grid(_0x2b736b,_0x292f40,_0x13a506,_0x462349,_0x1dd1c6,_0x1e99f6){if(_0x2b736b==undefined)_0x2b736b=0x1;if(_0x292f40==undefined)_0x292f40=0x1;var _0x274e42=_0x2b736b||0x1;var _0x3a129c=_0x292f40||0x1;this[_0x42d1('0x3d')];this['spacing_y'];this[_0x42d1('0x3e')]=0x0;this[_0x42d1('0x3f')]=0x0;this[_0x42d1('0x40')]=0x0;this[_0x42d1('0x41')]={'x':_0x1dd1c6||0x0,'y':_0x1e99f6||0x0};this['grid_w']=_0x13a506||window[_0x42d1('0x42')];this[_0x42d1('0x43')]=_0x462349||window[_0x42d1('0x44')];this['x']=[];this['y']=[];this[_0x42d1('0x45')]=function(_0x274e42,_0x3a129c){this[_0x42d1('0x3f')]+=_0x274e42||0x1;this[_0x42d1('0x40')]+=_0x3a129c||0x1;this[_0x42d1('0x3d')]=this[_0x42d1('0x46')]/this[_0x42d1('0x3f')];this['spacing_y']=this[_0x42d1('0x43')]/this['num_items_vert'];this[_0x42d1('0x47')]();return this;};this[_0x42d1('0x48')]=function(_0x5b0188,_0xa5e28b){this['start']={'x':_0x5b0188||0x0,'y':_0xa5e28b||0x0};createGrid();};this[_0x42d1('0x47')]=function(){for(var _0x33bbed=0x0;_0x33bbed<this['num_items_vert'];_0x33bbed++){for(var _0x29a05d=0x0;_0x29a05d<this[_0x42d1('0x3f')];_0x29a05d++){this['x'][_0x42d1('0x49')](_0x29a05d*this['spacing_x']+this[_0x42d1('0x3d')]/0x2);this['y'][_0x42d1('0x49')](_0x33bbed*this[_0x42d1('0x4a')]+this[_0x42d1('0x4a')]/0x2);}};this[_0x42d1('0x3e')]=this['x'][_0x42d1('0x3e')];};this[_0x42d1('0x45')](_0x274e42,_0x3a129c);return this;}function colourPool(){this['colours']=[];this[_0x42d1('0x4b')]=[];this[_0x42d1('0x4c')]=[];this[_0x42d1('0x45')]=function(_0x3d7a8d,_0x4afae9){if(_0x4afae9==undefined)_0x4afae9=0x1;this[_0x42d1('0x4c')][_0x42d1('0x49')](_0x3d7a8d);this[_0x42d1('0x4b')][_0x42d1('0x49')](_0x4afae9);this[_0x42d1('0x4d')]=this[_0x42d1('0x4e')](this[_0x42d1('0x4c')],this[_0x42d1('0x4b')]);return this;};this[_0x42d1('0x4f')]=function(){return this[_0x42d1('0x4d')][randomInt(this[_0x42d1('0x4d')]['length']-0x1)];};this['generateWeighedList']=function(_0x402610,_0xdc6e29){var _0x2d94f6=[];for(var _0x1ca08b=0x0;_0x1ca08b<_0xdc6e29[_0x42d1('0x3e')];_0x1ca08b++){var _0x543e2d=_0xdc6e29[_0x1ca08b]*0x64;for(var _0x1da7ac=0x0;_0x1da7ac<_0x543e2d;_0x1da7ac++){_0x2d94f6[_0x42d1('0x49')](_0x402610[_0x1ca08b]);}}return _0x2d94f6;};return this;}p[_0x42d1('0x50')]=function(_0x2e6408,_0x216c4c){if(_0x216c4c==undefined)_0x216c4c=0x0;if(_0x2e6408==undefined)_0x2e6408=0x14;var _0x2f29ed=ctx[_0x42d1('0x51')](0x0,0x0,w,h);ctx[_0x42d1('0x52')](0x0,0x0,w,h);if(_0x216c4c==0x3){ctx[_0x42d1('0x53')](0x0);}var _0x1cca8=new Uint8Array(_0x2f29ed['data'][_0x42d1('0x54')]);for(var _0x24329b=0x0;_0x24329b<w;_0x24329b+=_0x2e6408){for(var _0x5bb606=0x0;_0x5bb606<h;_0x5bb606+=_0x2e6408){var _0x334cb6=_0x24329b+_0x5bb606*w;var _0x24f564=_0x1cca8[_0x334cb6]>>0x10&0xff;var _0x2e1a27=_0x1cca8[_0x334cb6]>>0x8&0xff;var _0x2801cd=_0x1cca8[_0x334cb6]>>0x0&0xff;this[_0x42d1('0x3')]=rgb(_0x2801cd,_0x2e1a27,_0x24f564);if(_0x216c4c==0x0){this[_0x42d1('0x19')](_0x24329b,_0x5bb606,_0x2e6408,_0x2e6408);}else if(_0x216c4c==0x1){this[_0x42d1('0x14')](_0x24329b,_0x5bb606,_0x2e6408,_0x2e6408);}else if(_0x216c4c==0x2){var _0x2f13f7=brightness(_0x2801cd,_0x2e1a27,_0x24f564);this[_0x42d1('0x3')]=_0x2f13f7<0x28?rgb(0x0):rgb(0xff);this[_0x42d1('0x14')](_0x24329b,_0x5bb606,_0x2e6408-0x1,_0x2e6408-0x1);}else if(_0x216c4c==0x3){this[_0x42d1('0x3')]=rgb(_0x2801cd,_0x2e1a27,_0x24f564);this[_0x42d1('0x14')](_0x24329b,_0x5bb606,_0x2e6408-0x3,_0x2e6408-0x3);}else{var _0x2f13f7=brightness(_0x2801cd,_0x2e1a27,_0x24f564);if(_0x2f13f7<0x28){this[_0x42d1('0x3')]=rgb(0x0);this[_0x42d1('0x14')](_0x24329b,_0x5bb606,_0x2e6408-0x1,_0x2e6408-0x1);}else{this['fillStyle']=rgb(0xff);this[_0x42d1('0x14')](_0x24329b,_0x5bb606,_0x2e6408-0x1,_0x2e6408-0x1);this[_0x42d1('0x16')](_0x24329b,_0x5bb606,_0x2e6408,_0x2e6408);}};}}};function pixelate(_0x27835d,_0x1ae1e0){if(_0x1ae1e0==undefined)_0x1ae1e0=0x0;if(_0x27835d==undefined)_0x27835d=0x14;var _0x1a22d1=ctx['getImageData'](0x0,0x0,w,h);ctx[_0x42d1('0x52')](0x0,0x0,w,h);if(_0x1ae1e0==0x3){ctx[_0x42d1('0x53')](0x0);}var _0x8c3e2c=new Uint8Array(_0x1a22d1['data'][_0x42d1('0x54')]);for(var _0x232b03=0x0;_0x232b03<w;_0x232b03+=_0x27835d){for(var _0x778e1e=0x0;_0x778e1e<h;_0x778e1e+=_0x27835d){var _0x3245a1=_0x232b03+_0x778e1e*w;var _0x5160b4=_0x8c3e2c[_0x3245a1]>>0x10&0xff;var _0x3aca01=_0x8c3e2c[_0x3245a1]>>0x8&0xff;var _0xfb6e6f=_0x8c3e2c[_0x3245a1]>>0x0&0xff;ctx['fillStyle']=rgb(_0xfb6e6f,_0x3aca01,_0x5160b4);if(_0x1ae1e0==0x0){ctx[_0x42d1('0x19')](_0x232b03,_0x778e1e,_0x27835d,_0x27835d);}else if(_0x1ae1e0==0x1){ctx['fillEllipse'](_0x232b03,_0x778e1e,_0x27835d,_0x27835d);}else if(_0x1ae1e0==0x2){var _0x718697=brightness(_0xfb6e6f,_0x3aca01,_0x5160b4);ctx[_0x42d1('0x3')]=_0x718697<0x28?rgb(0x0):rgb(0xff);ctx[_0x42d1('0x14')](_0x232b03,_0x778e1e,_0x27835d-0x1,_0x27835d-0x1);}else if(_0x1ae1e0==0x3){ctx[_0x42d1('0x3')]=rgb(_0xfb6e6f,_0x3aca01,_0x5160b4);ctx[_0x42d1('0x14')](_0x232b03,_0x778e1e,_0x27835d-0x3,_0x27835d-0x3);}else{var _0x718697=brightness(_0xfb6e6f,_0x3aca01,_0x5160b4);if(_0x718697<0x28){ctx['fillStyle']=rgb(0x0);ctx[_0x42d1('0x14')](_0x232b03,_0x778e1e,_0x27835d-0x1,_0x27835d-0x1);}else{ctx[_0x42d1('0x3')]=rgb(0xff);ctx[_0x42d1('0x14')](_0x232b03,_0x778e1e,_0x27835d-0x1,_0x27835d-0x1);ctx[_0x42d1('0x16')](_0x232b03,_0x778e1e,_0x27835d,_0x27835d);}};}}}function pixelShuffle(_0x589875,_0x4fa287,_0x3d96e5,_0x4ee0e0,_0x1e8801,_0x3429e2,_0x4f2d4d){if(_0x4ee0e0==undefined){_0x4ee0e0=0x0;_0x1e8801=0x0;_0x3429e2=w;_0x4f2d4d=h;}if(_0x3d96e5==undefined)_0x3d96e5=0x14;if(_0x589875==undefined)_0x589875=0x14;if(_0x4fa287==undefined)_0x4fa287=_0x589875;var _0x1ac2e7=ctx[_0x42d1('0x51')](_0x4ee0e0,_0x1e8801,_0x3429e2,_0x4f2d4d);var _0x4c2a7c=new Uint32Array(_0x1ac2e7[_0x42d1('0x55')][_0x42d1('0x54')]);for(var _0x4d5e9c=_0x4ee0e0;_0x4d5e9c<_0x3429e2;_0x4d5e9c+=_0x589875){for(var _0x3f853f=_0x1e8801;_0x3f853f<_0x4f2d4d;_0x3f853f+=_0x4fa287){var _0x5d98c2=_0x4d5e9c+_0x3f853f*_0x3429e2;if(chance(_0x3d96e5)){_0x5d98c2=(_0x5d98c2+randomInt(-0x64,0x64)*0x4)%(_0x3429e2*_0x4f2d4d*0x4);var _0x98a27a=_0x4c2a7c[_0x5d98c2]>>0x10&0xff;var _0x2288af=_0x4c2a7c[_0x5d98c2]>>0x8&0xff;var _0x55e575=_0x4c2a7c[_0x5d98c2]>>0x0&0xff;ctx['fillStyle']=rgba(_0x55e575,_0x2288af,_0x98a27a,0.9);ctx[_0x42d1('0x19')](_0x4d5e9c,_0x3f853f,_0x589875,_0x4fa287);}};}}function shuffle(_0x3d42e1,_0x6dde39){if(_0x6dde39=undefined)_0x6dde39=_0x3d42e1[_0x42d1('0x3e')];var _0x37f92a,_0x8a70a9,_0x50f610;for(_0x50f610=_0x6dde39;_0x50f610;_0x50f610--){_0x37f92a=Math[_0x42d1('0x36')](Math['random']()*_0x50f610);_0x8a70a9=_0x3d42e1[_0x50f610-0x1];_0x3d42e1[_0x50f610-0x1]=_0x3d42e1[_0x37f92a];_0x3d42e1[_0x37f92a]=_0x8a70a9;}}function halftone(_0x35aa19,_0x1cea36){if(_0x1cea36==undefined)_0x1cea36=0x1;if(_0x1cea36==!![])_0x1cea36=-0x1;if(_0x35aa19==undefined)_0x35aa19=0x14;var _0x44b4d6=ctx[_0x42d1('0x51')](0x0,0x0,w,h);ctx[_0x42d1('0x52')](0x0,0x0,w,h);var _0x5d142b=new Uint32Array(_0x44b4d6[_0x42d1('0x55')][_0x42d1('0x54')]);ctx['fillStyle']=rgb(0x0,0x0,0x0);for(var _0x235bb7=0x0;_0x235bb7<w;_0x235bb7+=_0x35aa19){for(var _0x54f394=0x0;_0x54f394<h;_0x54f394+=_0x35aa19){var _0x2e0c06=_0x235bb7+_0x54f394*w;var _0x209758=_0x5d142b[_0x2e0c06]>>0x10&0xff;var _0x9eb5ad=_0x5d142b[_0x2e0c06]>>0x8&0xff;var _0x514113=_0x5d142b[_0x2e0c06]>>0x0&0xff;if(_0x1cea36==-0x1){var _0x42a877=0x64-brightness(_0x514113,_0x9eb5ad,_0x209758);}else{var _0x42a877=brightness(_0x514113,_0x9eb5ad,_0x209758);}ctx[_0x42d1('0x14')](_0x235bb7,_0x54f394,_0x35aa19*_0x42a877/0x64,_0x35aa19*_0x42a877/0x64);};}}function triangulate(_0x55cf79,_0x5840b6,_0x1d7b7b){if(_0x5840b6==undefined){_0x5840b6=_0x55cf79;}if(_0x1d7b7b==undefined){_0x1d7b7b=0.8;}var _0x1e6c10=Math[_0x42d1('0x56')](w/_0x55cf79);var _0x7ec7f3=Math[_0x42d1('0x56')](h/_0x5840b6);var _0x1139c8=ctx[_0x42d1('0x51')](0x0,0x0,w,h);ctx[_0x42d1('0x52')](0x0,0x0,w,h);var _0x21ff92=new Uint32Array(_0x1139c8[_0x42d1('0x55')]['buffer']);var _0x1688f3=0x0;for(var _0x8657a2=0x0;_0x8657a2<w;_0x8657a2+=_0x55cf79){for(var _0x5795e9=0x0;_0x5795e9<h;_0x5795e9+=_0x5840b6){var _0x3150b9=_0x8657a2+_0x5795e9*w;var _0x91520b=_0x21ff92[_0x3150b9]>>0x10&0xff;var _0x5464e9=_0x21ff92[_0x3150b9]>>0x8&0xff;var _0x541547=_0x21ff92[_0x3150b9]>>0x0&0xff;ctx[_0x42d1('0x3')]=rgba(_0x541547,_0x5464e9,_0x91520b,_0x1d7b7b);if(_0x1688f3%0x2){ctx[_0x42d1('0x27')](_0x8657a2,_0x5795e9-_0x5840b6,_0x8657a2,_0x5795e9+_0x5840b6,_0x8657a2-_0x55cf79,_0x5795e9);}else{ctx[_0x42d1('0x27')](_0x8657a2-_0x55cf79,_0x5795e9-_0x5840b6,_0x8657a2,_0x5795e9,_0x8657a2-_0x55cf79,_0x5795e9+_0x5840b6);}_0x1688f3++;}}}function mirror(){var _0x254a21=ctx[_0x42d1('0x51')](0x0,0x0,w,h);var _0x3abaf6=ctx[_0x42d1('0x57')](w,h);var _0x22e2f9=_0x254a21[_0x42d1('0x55')];var _0x3eace7=_0x3abaf6[_0x42d1('0x55')];for(var _0x23818e=0x1;_0x23818e<h-0x1;_0x23818e+=0x1){for(var _0x21a11c=0x0;_0x21a11c<w/0x2;_0x21a11c+=0x1){var _0x4d8924=(_0x23818e*w+_0x21a11c)*0x4;var _0x5ebc76=(_0x23818e*w+(w/0x2-_0x21a11c))*0x4;for(var _0x269433=0x0;_0x269433<0x4;_0x269433+=0x1){_0x3eace7[_0x4d8924+_0x269433]=_0x22e2f9[_0x5ebc76+_0x269433];}}}ctx[_0x42d1('0x58')](_0x3abaf6,w/0x2,0x0);}function ScaleImage(_0x464385,_0x37dbcf,_0x44ba36,_0x23d5d6,_0xfb08a7){var _0xe1c47c={'width':0x0,'height':0x0,'fScaleToTargetWidth':!![]};if(_0x464385<=0x0||_0x37dbcf<=0x0||_0x44ba36<=0x0||_0x23d5d6<=0x0){return _0xe1c47c;}var _0x17528d=_0x44ba36;var _0x293c0d=_0x37dbcf*_0x44ba36/_0x464385;var _0x13f273=_0x464385*_0x23d5d6/_0x37dbcf;var _0x2ff572=_0x23d5d6;var _0x3c1788=_0x13f273>_0x44ba36;if(_0x3c1788){_0x3c1788=_0xfb08a7;}else{_0x3c1788=!_0xfb08a7;}if(_0x3c1788){_0xe1c47c['width']=Math['floor'](_0x17528d);_0xe1c47c[_0x42d1('0x59')]=Math[_0x42d1('0x36')](_0x293c0d);_0xe1c47c[_0x42d1('0x5a')]=!![];}else{_0xe1c47c[_0x42d1('0x5b')]=Math[_0x42d1('0x36')](_0x13f273);_0xe1c47c[_0x42d1('0x59')]=Math[_0x42d1('0x36')](_0x2ff572);_0xe1c47c[_0x42d1('0x5a')]=![];}_0xe1c47c[_0x42d1('0x5c')]=Math[_0x42d1('0x36')]((_0x44ba36-_0xe1c47c[_0x42d1('0x5b')])/0x2);_0xe1c47c[_0x42d1('0x5d')]=Math[_0x42d1('0x36')]((_0x23d5d6-_0xe1c47c[_0x42d1('0x59')])/0x2);return _0xe1c47c;}var mousePressed=0x0;var mouseReleased=0x0;document[_0x42d1('0x5e')]=function(){mousePressed=0x1;};document[_0x42d1('0x5f')]=function(){mousePressed=0x0;mouseReleased=0x1;};var mouseSpeedX=mouseSpeedX=0x0;var mouseX=0x0,mouseY=0x0,lastMouseX=0x0,lastMouseY=0x0,oldMouseX=0x0,oldMouseY=0x0,frameRate=0x3c,frameCount=frameNumber=0x0,lastUpdate=Date[_0x42d1('0x60')](),mouseMoved=![],mouseDown=![];function cjsloop(){var _0x4bd6b9=Date[_0x42d1('0x60')]();var _0x20cbef=_0x4bd6b9-lastUpdate;if(typeof window[_0x42d1('0x61')]==_0x42d1('0x62')&&_0x20cbef>=0x3e8/window[_0x42d1('0x63')]){window[_0x42d1('0x61')]();frameCount++;frameNumber++;lastUpdate=_0x4bd6b9-_0x20cbef%(0x3e8/window[_0x42d1('0x63')]);mouseSpeedX=mouseX-oldMouseX;mouseSpeedY=mouseX-oldMouseX;lastMouseX=oldMouseX=mouseX;lastMouseY=oldMouseY=mouseY;mouseReleased=0x0;mouseMoved=0x0;}requestAnimationFrame(cjsloop);};(function(){var _0x5d56a1=0x0;var _0x3d00cc=['ms',_0x42d1('0x64'),'webkit','o'];for(var _0x3aba6b=0x0;_0x3aba6b<_0x3d00cc[_0x42d1('0x3e')]&&!window[_0x42d1('0x65')];++_0x3aba6b){window['requestAnimationFrame']=window[_0x3d00cc[_0x3aba6b]+_0x42d1('0x66')];window[_0x42d1('0x67')]=window[_0x3d00cc[_0x3aba6b]+_0x42d1('0x68')]||window[_0x3d00cc[_0x3aba6b]+_0x42d1('0x69')];}if(!window['requestAnimationFrame'])window[_0x42d1('0x65')]=function(_0x1bf17b,_0x45e145){var _0x5cb999=new Date()[_0x42d1('0x6a')]();var _0xd2e7df=Math[_0x42d1('0x37')](0x0,0x10-(_0x5cb999-_0x5d56a1));var _0x27b3db=window[_0x42d1('0x6b')](function(){_0x1bf17b(_0x5cb999+_0xd2e7df);},_0xd2e7df);_0x5d56a1=_0x5cb999+_0xd2e7df;return _0x27b3db;};if(!window['cancelAnimationFrame'])window[_0x42d1('0x67')]=function(_0xec4d5e){clearTimeout(_0xec4d5e);};}());function init(){window[_0x42d1('0x6c')](_0x42d1('0x6d'),function(_0x48a426){mouseX=_0x48a426[_0x42d1('0x6e')];mouseY=_0x48a426[_0x42d1('0x6f')];mouseMoved=!![];});window[_0x42d1('0x6c')](_0x42d1('0x70'),function(_0x504f61){mouseDown=!![];if(typeof onMouseDown=='function')onMouseDown();});window[_0x42d1('0x6c')](_0x42d1('0x71'),function(_0x26525e){mouseDown=![];if(typeof onMouseUp==_0x42d1('0x62'))onMouseUp();});window[_0x42d1('0x6c')](_0x42d1('0x72'),function(_0x4ee1d0){if(typeof onKeyDown==_0x42d1('0x62'))onKeyDown(_0x4ee1d0);});window[_0x42d1('0x6c')]('keyup',function(_0x41a539){if(typeof onKeyUp==_0x42d1('0x62'))onKeyUp(_0x41a539);});if(typeof window['setup']=='function')window['setup']();cjsloop();}window[_0x42d1('0x6c')](_0x42d1('0x73'),init);
+var TWO_PI = Math.PI * 2;
+
+var p = CanvasRenderingContext2D.prototype;
+
+
+p.colour = function (r, g, b, a){
+  'use strict';
+  var c = this.getColour(r, g, b, a);
+  this.fillStyle = c;
+};
+
+
+p.lineColour = function (r, g, b, a){
+  console.log(r);
+  this.strokeStyle = this.getColour(r, g, b, a);
+};
+
+p.colourName = function (c){
+  'use strict';
+  this.fillStyle = c;
+};
+
+p.getColour = function (r, g, b, a){
+
+  if (g == undefined) {
+    c = rgb(r, r, r);
+
+  } else if (b == undefined && a == undefined) {
+
+    c = rgba(r, r, r, g);
+
+  } else if (a == undefined) {
+
+    c = rgb(r, g, b);
+
+  } else {
+
+    c = rgba(r, g, b, a);
+
+  }
+  return(c);
+};
+
+
+
+p.makeCircle = function(x, y, radius) {
+ 'use strict';
+ this.beginPath();
+ this.arc(x, y, radius/2, 0, Math.PI*2, true);
+};
+
+p.circle = function(x, y, radius) {
+  'use strict';
+  this.makeCircle(x, y, radius);
+  this.fill();
+  this.closePath();
+};
+
+p.fillCircle = function(x, y, radius) {
+  'use strict';
+ this.makeCircle(x, y, radius);
+ this.fill();
+ this.closePath();
+};
+
+p.strokeCircle = function(x, y, radius) {
+ 'use strict';
+ this.makeCircle(x, y, radius);
+ this.stroke();
+ this.closePath();
+};
+
+p.circleH = function(x, y, width, height) {
+  'use strict';
+  if (height == undefined) { height = width; }
+  this.Hellipse(x,y,width, height);
+  this.fill();
+  this.closePath();
+};
+
+p.ellipse = function(x, y, width, height) {
+  'use strict';
+ if (height == undefined) { height = width; }
+ this.beginPath();
+ for(var i=0; i<Math.PI*2; i+=Math.PI/16) {
+ this.lineTo(x+(Math.cos(i)*width/2), y+(Math.sin(i)*height/2));
+ }
+ this.closePath();
+};
+
+p.Hellipse = function(x, y, width, height) {
+ 'use strict';
+ if (height == undefined) { height = width; }
+ this.beginPath();
+ for(var i=0;i<Math.PI*2;i+=Math.PI/64) {
+ this.lineTo(x+(Math.cos(i)*width/2), y+(Math.sin(i)*height/2));
+ }
+ this.closePath();
+};
+
+
+p.fillEllipse = function(x, y, width, height) {
+ 'use strict';
+ if (height == undefined) height = width;
+ this.ellipse(x,y,width, height);
+ this.fill();
+ this.beginPath();
+};
+
+p.HfillEllipse = function(x, y, width, height) {
+ if (height == undefined) height = width;
+ this.Hellipse(x,y,width, height);
+ this.fill();
+ this.beginPath();
+};
+
+p.strokeEllipse = function(x, y, width, height) {
+ if (height == undefined) height = width;
+ this.ellipse(x,y,width, height);
+ this.stroke();
+ this.beginPath();
+};
+
+p.HstrokeEllipse = function(x, y, width, height) {
+ if (height == undefined) { height = width; }
+ this.Hellipse(x,y,width, height);
+ this.stroke();
+ this.beginPath();
+};
+
+p.square = function(x, y, width, height) {
+  if (height == undefined) height = width;
+  this.fillRect(x, y, width, height);
+};
+
+
+p.centreStrokeRect = function(x, y, width, height) {
+ this.strokeRect(x - width/2, y - height/2, width, height);
+};
+
+p.centreFillRect = function(x, y, width, height) {
+ this.fillRect(x - width/2, y - height/2, width, height);
+};
+
+p.roundRect = function(_x, _y, _width, _height, _radius, _fill, _stroke) {
+  _fill   = _fill || true;
+  _stroke = _stroke || false;
+  _width  = Math.abs(_width);
+  _height = Math.abs(_height);
+  radius  = _radius || 5;
+  _x = _x - _width/2;
+  _y = _y - _height/2;
+  if (_width < radius) radius = _width;
+  radius  = {tl: radius, tr: radius, br: radius, bl: radius};
+
+  this.beginPath();
+  this.moveTo(_x + radius.tl, _y);
+  this.lineTo(_x + _width - radius.tr, _y);
+  this.quadraticCurveTo(_x + _width, _y, _x + _width, _y + radius.tr);
+  this.lineTo(_x + _width, _y + _height - radius.br);
+  this.quadraticCurveTo(_x + _width, _y + _height, _x + _width - radius.br, _y + _height);
+  this.lineTo(_x + radius.bl, _y + _height);
+  this.quadraticCurveTo(_x, _y + _height, _x, _y + _height - radius.bl);
+  this.lineTo(_x, _y + radius.tl);
+  this.quadraticCurveTo(_x, _y, _x + radius.tl, _y);
+  this.closePath();
+  if (_fill) {
+    this.fill();
+  }
+  if (_stroke) {
+    this.stroke();
+  }
+
+}
+
+
+p.line = function (x1, y1, x2, y2){
+ this.beginPath();
+ this.moveTo(x1,y1);
+ this.lineTo(x2,y2);
+ this.stroke();
+ this.beginPath();
+};
+
+
+p.strokePolygon = function (x, y, sides, size) {
+ this.polygon(x, y, sides, size);
+ this.stroke();
+}
+
+
+p.fillPolygon = function (x, y, sides, size){
+ this.polygon(x, y, sides, size);
+ this.fill();
+}
+
+
+p.outlinedPolygon = function (_x, _y, _sides, _size, _fill, _stroke){
+  this.fillStyle = _fill;
+  this.fillPolygon(_x, _y, _sides, _size);
+  this.strokeStyle = _stroke;
+  this.strokePolygon(_x, _y, _sides, _size);
+}
+
+
+p.polygon = function (_x, _y, sides, size){
+ this.beginPath();
+ this.moveTo (_x +  size * Math.cos(0), _y +  size *  Math.sin(0));
+ for (var i = 1; i <= sides; i += 1) {
+    this.lineTo (_x + size * Math.cos(i * 2 * Math.PI / sides), _y + size * Math.sin(i * 2 * Math.PI / sides));
+  }
+}
+
+p.strokeWeight = function(j){
+ this.lineWidth = j;
+}
+
+p.triangle = function(x1, y1, x2, y2, x3, y3) {
+ 'use strict';
+ this.beginPath();
+  this.moveTo(x1, y1);
+  this.lineTo(x2, y2);
+  this.lineTo(x3, y3);
+  this.lineTo(x1, y1);
+  this.stroke();
+  this.closePath();
+ };
+
+p.strokeTriangle = function(x1, y1, x2, y2, x3, y3) {
+ this.beginPath();
+ this.moveTo(x1, y1);
+ this.lineTo(x2, y2);
+ this.lineTo(x3, y3);
+ this.lineTo(x1, y1);
+ this.stroke();
+ this.closePath();
+}
+
+p.fillTriangle = function(x1, y1, x2, y2, x3, y3) {
+  this.beginPath();
+  this.moveTo(x1, y1);
+  this.lineTo(x2, y2);
+  this.lineTo(x3, y3);
+  this.lineTo(x1, y1);
+  this.fill();
+  this.closePath();
+ };
+
+
+p.eqDownFillTriangle = function(x, y, sz, down) {
+ this.translate(x, y);
+ this.rotate(radians(180));
+ this.fillTriangle(0, 0 - sz, 0 + sz, 0 + sz/2, 0 - sz, 0 + sz/2);
+ this.rotate(radians(-180));
+ this.translate(-x, -y);
+}
+
+
+p.eqDownTriangle = function(x, y, sz, down) {
+ this.translate(x, y);
+ this.rotate(radians(180));
+ this.triangle(0, 0 - sz, 0 + sz, 0 + sz/2, 0 - sz, 0 + sz/2);
+ this.rotate(radians(-180));
+ this.translate(-x, -y);
+}
+
+p.eqFillTriangle = function(x, y, sz, down) {
+ this.fillTriangle(x, y - sz, x + sz, y + sz/2, x - sz, y + sz/2);
+}
+
+p.eqTriangle = function(x, y, sz, down) {
+ this.triangle(x, y - sz, x + sz, y + sz/2, x - sz, y + sz/2);
+}
+
+
+p.background = function (r, g, b, a){
+ if (g == undefined) {
+ this.fillStyle = rgb(r, r, r);
+ } else if (b == undefined && a == undefined) {
+  this.fillStyle = rgba(r, r, r, g);
+ } else if (a == undefined) {
+  this.fillStyle = rgb(r, g, b);
+ } else {
+ this.fillStyle = rgba(r, g, b, a);
+ }
+ this.fillRect(0, 0, w, h);
+};
+
+p.rotateDegrees = function(deg){
+  this.rotate(radians(deg));
+}
+
+p.rotateDeg = function(deg){
+  this.rotate(radians(deg));
+}
+
+function radians(deg) {return deg*Math.PI/180;};
+
+function degrees(rad) {return rad*180/Math.PI;};
+
+function degreesToPoint(deg, diameter) {
+    var rad = Math.PI * deg / 180;
+    var r = diameter / 2;
+    return {x: r * Math.cos(rad), y: r * Math.sin(rad)};
+}
+
+function distributeAngles(me, total) {
+    return me/total * 360;
+}
+
+function halfDistributeAngles(me, total) {
+    return me/total * 181;
+}
+
+function quarterDistributeAngles(me, total) {
+    return me/total * 91;
+}
+
+
+
+function xyz(px, py, pz, pitch, roll, yaw) {
+
+    var cosa = Math.cos(yaw);
+    var sina = Math.sin(yaw);
+
+    var cosb = Math.cos(pitch);
+    var sinb = Math.sin(pitch);
+
+    var cosc = Math.cos(roll);
+    var sinc = Math.sin(roll);
+
+    var Axx = cosa*cosb;
+    var Axy = cosa*sinb*sinc - sina*cosc;
+    var Axz = cosa*sinb*cosc + sina*sinc;
+
+    var Ayx = sina*cosb;
+    var Ayy = sina*sinb*sinc + cosa*cosc;
+    var Ayz = sina*sinb*cosc - cosa*sinc;
+
+    var Azx = -sinb;
+    var Azy = cosb*sinc;
+    var Azz = cosb*cosc;
+
+    x = Axx*px + Axy*py + Axz*pz;
+    y = Ayx*px + Ayy*py + Ayz*pz;
+    z = Azx*px + Azy*py + Azz*pz;
+
+    return {x:x, y:y, z:z};
+}
+
+
+function rgb(r, g, b) {
+
+ if (g == undefined) g = r;
+ if (b == undefined) b = r;
+ return 'rgb('+clamp(Math.round(r),0,255)+', '+clamp(Math.round(g),0,255)+', '+clamp(Math.round(b),0,255)+')';
+
+};
+
+function rgba(r, g, b, a) {
+  if (g == undefined) {
+   return 'rgb('+clamp(Math.round(r),0,255)+', '+clamp(Math.round(r),0,255)+', '+clamp(Math.round(r),0,255)+')';
+ } else if (b == undefined) {
+    return 'rgba('+clamp(Math.round(r),0,255)+', '+clamp(Math.round(r),0,255)+', '+clamp(Math.round(r),0,255)+', '+clamp(g,0,1)+')';
+  } else if (a == undefined){
+  return 'rgba('+clamp(Math.round(r),0,255)+', '+clamp(Math.round(g),0,255)+', '+clamp(Math.round(b),0,255)+', 1)';
+} else {
+return 'rgba('+clamp(Math.round(r),0,255)+', '+clamp(Math.round(g),0,255)+', '+clamp(Math.round(b),0,255)+', '+clamp(a,0,1)+')';
+ }
+};
+
+function hsl(h, s, l) { return 'hsl('+h+', '+clamp(s,0,100)+'%, '+clamp(l,0,100)+'%)';};
+function hsla(h, s, l, a) { return 'hsla('+h+', '+clamp(s,0,100)+'%, '+clamp(l,0,100)+'%, '+clamp(a,0,1)+')';};
+
+function brightness(r, g, b, sz){
+      var sz = sz || 100;
+      return Math.floor(rgbToHsl(r, g, b)[2]*sz);
+    };
+
+function rgbToHsl(r, g, b){
+    r /= 255, g /= 255, b /= 255;
+    var max = Math.max(r, g, b), min = Math.min(r, g, b);
+    var h, s, l = (max + min) / 2;
+
+    if(max == min){
+        h = s = 0; // achromatic
+    }else{
+        var d = max - min;
+        s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+        switch(max){
+            case r: h = (g - b) / d + (g < b ? 6 : 0); break;
+            case g: h = (b - r) / d + 2; break;
+            case b: h = (r - g) / d + 4; break;
+        }
+        h /= 6;
+    }
+
+    return [h, s, l];
+}
+
+function hexToRgb(hex) {
+    // Expand shorthand form (e.g. '03F') to full form (e.g. '0033FF')
+    var shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
+    hex = hex.replace(shorthandRegex, function(m, r, g, b) {
+        return r + r + g + g + b + b;
+    });
+
+    var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+    return result ? {
+        r: parseInt(result[1], 16),
+        g: parseInt(result[2], 16),
+        b: parseInt(result[3], 16)
+    } : null;
+}
+
+function hslToRgb(h, s, l){
+    var r, g, b;
+
+    if(s == 0){
+        r = g = b = l; // achromatic
+    }else{
+        var hue2rgb = function hue2rgb(p, q, t){
+            if(t < 0) t += 1;
+            if(t > 1) t -= 1;
+            if(t < 1/6) return p + (q - p) * 6 * t;
+            if(t < 1/2) return q;
+            if(t < 2/3) return p + (q - p) * (2/3 - t) * 6;
+            return p;
+        }
+
+        var q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+        var p = 2 * l - q;
+        r = hue2rgb(p, q, h + 1/3);
+        g = hue2rgb(p, q, h);
+        b = hue2rgb(p, q, h - 1/3);
+    }
+
+    return [Math.round(r * 255), Math.round(g * 255), Math.round(b * 255)];
+}
+
+
+
+
+
+
+function map(value, min1, max1, min2, max2, clampResult) {
+ var returnvalue = ((value-min1) / (max1 - min1) * (max2-min2)) + min2;
+ if(clampResult) {
+  return clamp(returnvalue, min2, max2);
+ } else { return returnvalue; };
+};
+
+function log(val){
+ console.log(val);
+}
+
+
+function clamp(value, min, max){
+  return Math.min(Math.max(value, Math.min(min, max)),Math.max(min, max));
+}
+
+function inRange(value){
+ return value >= Math.min(min, max) && value <= Math.max(min, max);
+}
+
+function dist(x1, y1, x2, y2) {
+ x2-=x1; y2-=y1;
+ return Math.sqrt((x2*x2) + (y2*y2));
+}
+
+function random(min, max) {
+ if(min===undefined) {
+  min = 0;
+  max = 1;
+ } else if(max=== undefined) {
+  max = min;
+  min = 0;
+ }
+ return (Math.random() * (max-min)) + min;
+};
+
+
+function randomP(min, max) {
+ if(min===undefined) {
+  min = 0.1;
+  max = 1;
+ } else if(max=== undefined) {
+  max = min;
+  min = 0.1;
+ }
+ return (Math.random() * (max-min)) + min;
+};
+
+
+function randomInt(min, max) {
+ if(max===undefined) {
+ max = min;
+ min = 0;
+ }
+ return Math.floor(Math.random() * (max+1-min)) +min;
+}
+
+
+function randomColour(){
+  var r = randomInt(255);
+  var g = randomInt(255);
+  var b = randomInt(255);
+  return rgb(r,g,b);
+}
+
+function tween(pos, target, speed){
+ if (speed == undefined) speed = 20;
+ pos += (target - pos)/speed;
+ return pos;
+}
+
+function chance(value){
+ return (random(value) > value-1);
+}
+
+function posNeg(){
+ return randomInt(0,1) * 2 - 1;
+}
+
+function angle(cx, cy, ex, ey) {
+  var dy = ey - cy;
+  var dx = ex - cx;
+  var theta = Math.atan2(dy, dx); // range (-PI, PI]
+  theta *= 180 / Math.PI; // rads to degs, range (-180, 180]
+  if (theta < 0) theta = 360 + theta; // range [0, 360);
+  if (theta == 360) theta = 0;
+  return theta;
+}
+
+function bounce(num, min, max, sz) {
+  if (sz === undefined) {
+    sz = 0;
+  }
+  if (num >= max - sz/2 || num - sz/2 <= min ) {
+    return 1;
+  } else {
+    return 0;
+  }
+ //return num > max ? -1 : num < min ? -1 : 1
+}
+
+
+// Adapted from https://github.com/psalaets/line-intersect/
+function checkIntersection( x1, y1, x2, y2, x3, y3, x4, y4 ) {
+
+ if(
+ (x1 === x3 && y1 == y3) ||
+ (x1 === x4 && y1 == y4) ||
+ (x2 === x3 && y2 == y3) ||
+ (x2 === x4 && y2 == y4)
+ ) {
+	return false;
+ }
+
+var denom = ((y4 - y3) * (x2 - x1)) - ((x4 - x3) * (y2 - y1));
+var numeA = ((x4 - x3) * (y1 - y3)) - ((y4 - y3) * (x1 - x3));
+var numeB = ((x2 - x1) * (y1 - y3)) - ((y2 - y1) * (x1 - x3));
+
+if( denom === 0 || (numeA === 0 && numeB === 0) ) {
+ return false;
+}
+
+ var uA = numeA / denom;
+ var uB = numeB / denom;
+
+ if( uA >= 0 && uA <= 1 && uB >= 0 && uB <= 1 ) {
+ return [
+ (uA * (x2 - x1)) + x1,
+ (uA * (y2 - y1)) + y1
+ ]
+ }
+}
+
+
+function lineCircleCollide(a, b, circle, radius, nearest) {
+  //check to see if start or end points lie within circle
+    var tmp = {x:0, y:0}
+
+    if (pointCircleCollide(a, circle, radius)) {
+        if (nearest) {
+            nearest.x = a.x
+            nearest.y = a.y
+        }
+        return true
+    } if (pointCircleCollide(b, circle, radius)) {
+        if (nearest) {
+            nearest.x = b.x
+            nearest.y = b.y
+        }
+        return true
+    }
+
+    var x1 = a.x,
+        y1 = a.y,
+        x2 = b.x,
+        y2 = b.y,
+        cx = circle.x,
+        cy = circle.y
+
+    //vector d
+    var dx = x2 - x1
+    var dy = y2 - y1
+    //vector lc
+    var lcx = cx - x1
+    var lcy = cy - y1
+
+
+    //project lc onto d, resulting in vector p
+    var dLen2 = dx * dx + dy * dy //len2 of d
+    var px = dx
+    var py = dy
+    if (dLen2 > 0) {
+        var dp = (lcx * dx + lcy * dy) / dLen2
+        px *= dp
+        py *= dp
+    }
+
+    if (!nearest)
+        nearest = tmp
+    nearest.x = x1 + px
+    nearest.y = y1 + py
+
+    //len2 of p
+    var pLen2 = px * px + py * py
+
+    //check collision
+    return pointCircleCollide(nearest, circle, radius)
+            && pLen2 <= dLen2 && (px * dx + py * dy) >= 0
+}
+
+function pointCircleCollide(point, circle, r) {
+    if (r===0) return false
+    var dx = circle.x - point.x
+    var dy = circle.y - point.y
+    return dx * dx + dy * dy <= r * r
+}
+
+
+function cross(_x, _y, _w, _h){
+ if (_w === undefined) _w =20;
+ if (_h === undefined) _h =60;
+ ctx.fillRect( _x - _w/2, _y - _h/2,  _w, _h);
+ ctx.fillRect( _x - _h/2, _y - _w/2,  _h, _w);
+}
+
+function makeGrid(_w, _h){
+ var grid = [];
+ var k = 0;
+ for (var y = 0; y < _h; y++) {
+  for (var x = 0; x < _w; x++) {
+  grid[k] = [x, y];
+  k++;
+  }
+};
+//console.log(grid);
+ return grid;
+}
+
+
+function Grid(_num_items_horiz, _num_items_vert, _grid_w, _grid_h, _startx, _starty){
+
+  if (_num_items_horiz == undefined) _num_items_horiz = 1;
+  if (_num_items_vert == undefined) _num_items_vert = 1;
+  var _horiz = _num_items_horiz || 1;
+  var _vert = _num_items_vert || 1;
+
+  this.spacing_x;
+  this.spacing_y;
+  this.length = 0;
+  this.num_items_horiz = 0;
+  this.num_items_vert = 0;
+
+  this.start = {x: _startx || 0 , y: _starty || 0};
+
+  this.grid_w = _grid_w || window.innerWidth;
+  this.grid_h = _grid_h || window.innerHeight;
+
+  this.x = [];
+  this.y = [];
+
+  this.add = function(_horiz, _vert) {
+
+    this.num_items_horiz += _horiz || 1;
+    this.num_items_vert += _vert || 1;
+
+    this.spacing_x = this.grid_w / this.num_items_horiz;
+    this.spacing_y = this.grid_h / this.num_items_vert;
+
+    this.createGrid();
+
+    return this;
+
+  }
+
+
+  this.setStart = function(_x, _y) {
+
+     this.start = {x: _x || 0 , y: _y || 0};
+     createGrid();
+
+  }
+
+  this.createGrid = function() {
+
+    for (var _y = 0; _y < this.num_items_vert; _y++) {
+
+      for (var _x = 0; _x < this.num_items_horiz; _x++) {
+
+        this.x.push(_x*this.spacing_x+ this.spacing_x/2);
+        this.y.push(_y*this.spacing_y+ this.spacing_y/2);
+
+      }
+    };
+    this.length = this.x.length;
+  }
+
+  this.add(_horiz, _vert);
+
+  return this;
+
+}
+
+
+function colourPool(){
+
+  this.colours = [];
+  this.weights = [];
+  this.colour_list = [];
+
+  this.add = function(_colour, _weight){
+    if (_weight == undefined) _weight = 1;
+    this.colour_list.push(_colour);
+    this.weights.push(_weight);
+    this.pool  = this.generateWeighedList(this.colour_list, this.weights);
+    return this;
+  }
+
+  this.get = function(){
+    return this.pool[randomInt(this.pool.length-1)];
+  }
+
+  this.generateWeighedList = function(list, weight) {
+    var weighed_list = [];
+
+    // Loop over weights
+    for (var i = 0; i < weight.length; i++) {
+
+        var multiples = weight[i] * 100;
+
+        // Loop over the list of items
+        for (var j = 0; j < multiples; j++) {
+            weighed_list.push(list[i]);
+        }
+    }
+
+    return weighed_list;
+  };
+
+  return this;
+}
+
+
+////// EFFECTS
+
+p.pixelate = function (blocksize,blockshape) {
+  if (blockshape == undefined) blockshape = 0;
+  if (blocksize == undefined) blocksize = 20;
+  var imgData=ctx.getImageData(0,0,w,h);
+
+  ctx.clearRect(0,0,w,h);
+  //console.log(blockshape)
+  if (blockshape == 3) {
+    ctx.background(0);
+  }
+
+    var buffer = new Uint8Array(imgData.data.buffer);
+    for(var x = 0; x < w; x += blocksize)
+    {
+        for(var y = 0; y < h; y += blocksize)
+        {
+
+          var pos = (x + y * w);
+          var b = (buffer[pos] >> 16) & 0xff;
+          var g = (buffer[pos] >> 8) & 0xff;
+          var r = (buffer[pos] >> 0) & 0xff;
+          this.fillStyle = rgb(r,g,b);
+          if (blockshape == 0) {
+            this.fillRect(x, y, blocksize, blocksize);
+          } else if (blockshape == 1) {
+          	this.fillEllipse(x, y, blocksize, blocksize);
+          } else if (blockshape == 2) {
+          	var bb = brightness(r,g,b);
+          	this.fillStyle = (bb < 40 ? rgb(0) : rgb(255));
+            this.fillEllipse(x, y, blocksize-1, blocksize-1);
+           } else if (blockshape == 3) {
+            this.fillStyle = rgb(r,g,b);
+            this.fillEllipse(x, y, blocksize-3, blocksize-3);
+          } else {
+          	var bb = brightness(r,g,b);
+          	if (bb< 40) {
+          		this.fillStyle = rgb(0);
+          		this.fillEllipse(x, y, blocksize-1, blocksize-1);
+          	} else {
+          		this.fillStyle = rgb(255);
+          		this.fillEllipse(x, y, blocksize-1, blocksize-1);
+            	this.strokeEllipse(x, y, blocksize, blocksize);
+          	}
+          };
+
+        }
+    }
+
+}
+
+
+function pixelate(blocksize,blockshape) {
+  if (blockshape == undefined) blockshape = 0;
+  if (blocksize == undefined) blocksize = 20;
+  var imgData=ctx.getImageData(0,0,w,h);
+
+  ctx.clearRect(0,0,w,h);
+  //console.log(blockshape)
+  if (blockshape == 3) {
+    ctx.background(0);
+  }
+
+    var buffer = new Uint8Array(imgData.data.buffer);
+    for(var x = 0; x < w; x += blocksize)
+    {
+        for(var y = 0; y < h; y += blocksize)
+        {
+
+          var pos = (x + y * w);
+          var b = (buffer[pos] >> 16) & 0xff;
+          var g = (buffer[pos] >> 8) & 0xff;
+          var r = (buffer[pos] >> 0) & 0xff;
+          ctx.fillStyle = rgb(r,g,b);
+          if (blockshape == 0) {
+            ctx.fillRect(x, y, blocksize, blocksize);
+          } else if (blockshape == 1) {
+          	ctx.fillEllipse(x, y, blocksize, blocksize);
+          } else if (blockshape == 2) {
+          	var bb = brightness(r,g,b);
+          	ctx.fillStyle = (bb < 40 ? rgb(0) : rgb(255));
+            ctx.fillEllipse(x, y, blocksize-1, blocksize-1);
+           } else if (blockshape == 3) {
+            ctx.fillStyle = rgb(r,g,b);
+            ctx.fillEllipse(x, y, blocksize-3, blocksize-3);
+          } else {
+          	var bb = brightness(r,g,b);
+          	if (bb< 40) {
+          		ctx.fillStyle = rgb(0);
+          		ctx.fillEllipse(x, y, blocksize-1, blocksize-1);
+          	} else {
+          		ctx.fillStyle = rgb(255);
+          		ctx.fillEllipse(x, y, blocksize-1, blocksize-1);
+            	ctx.strokeEllipse(x, y, blocksize, blocksize);
+          	}
+          };
+
+        }
+    }
+
+}
+
+
+
+function pixelShuffle(blockwidth, blockheight, freq, x1, y1, x2, y2) {
+
+  if (x1 == undefined) {
+    x1 = 0; y1 = 0; x2 = w; y2 = h;
+  }
+	if (freq == undefined) freq = 20;
+	if (blockwidth == undefined) blockwidth = 20;
+	if (blockheight == undefined) blockheight = blockwidth;
+    var imgData=ctx.getImageData(x1,y1,x2,y2);
+    //var sourceBuffer8 = new Uint8Array(imgData.data.buffer);
+    //var sourceBuffer8 = new Uint8ClampedArray(imgData.data.buffer);
+    //shuffle(sourceBuffer8, 1);
+    var sourceBuffer32 = new Uint32Array(imgData.data.buffer);
+
+    for(var x = x1; x < x2; x += blockwidth) {
+
+        for(var y = y1; y < y2; y += blockheight) {
+
+          var pos = (x + y * x2);
+          if (chance(freq)) {
+            pos = (pos + randomInt(-100,100)*4) % (x2*y2*4);
+            var b = (sourceBuffer32[pos] >> 16) & 0xff;
+            var g = (sourceBuffer32[pos] >> 8) & 0xff;
+            var r = (sourceBuffer32[pos] >> 0) & 0xff;
+            ctx.fillStyle = rgba(r,g,b, 0.9);
+          ctx.fillRect(x, y, blockwidth, blockheight);
+          }
+        };
+
+    }
+
+}
+
+
+// function pixelShuffle(blockwidth, blockheight, freq, x1, y1, x2, y2) {
+
+//   if (x1 === undefined) {
+//     x1 = 0; y1 = 0; x2 = w; y2 = h;
+//   }
+
+
+
+//   if (freq == undefined) freq = 20;
+//   if (blockwidth == undefined) blockwidth = 20;
+//   if (blockheight == undefined) blockheight = blockwidth;
+
+//     var imgData=ctx.getImageData(0,0,x2,y2);
+//     //ctx.clearRect(0,0,w,h);
+//     //var sourceBuffer8 = new Uint8Array(imgData.data.buffer);
+//     //var sourceBuffer8 = new Uint8ClampedArray(imgData.data.buffer);
+//     //shuffle(sourceBuffer8, 1);
+//     var sourceBuffer32 = new Uint32Array(imgData.data.buffer);
+
+//     for(var x = x1; x < x2; x += blockwidth) {
+//         for(var y = y2; y < y2; y += blockheight) {
+
+//           var pos = (x + y * x2);
+
+//           if (chance(freq)) {
+//             pos = (pos + randomInt(-100,100)*4) % (x2*y2*4);
+//             //pos = (pos + randomInt(-100,100)*4) % ((x1+x2)*(y1+y2)*4);
+//             var b = (sourceBuffer32[pos] >> 16) & 0xff;
+//             var g = (sourceBuffer32[pos] >> 8) & 0xff;
+//             var r = (sourceBuffer32[pos] >> 0) & 0xff;
+//             ctx.fillStyle = rgba(r,g,b, 0.9);
+//             ctx.fillRect(x, y, blockwidth, blockheight);
+
+//           }
+//         };
+
+//     }
+
+// }
+
+
+
+
+function shuffle(a, ammt) {
+ if (ammt = undefined) ammt = a.length;
+    var j, x, i;
+    for (i = ammt; i; i--) {
+        j = Math.floor(Math.random() * i);
+        x = a[i - 1];
+        a[i - 1] = a[j];
+        a[j] = x;
+    }
+}
+
+
+
+function halftone(blocksize, reverse) {
+  if (reverse == undefined) reverse = 1;
+  if (reverse == true) reverse = -1;
+  if (blocksize == undefined) blocksize = 20;
+  var imgData=ctx.getImageData(0,0,w,h);
+
+  ctx.clearRect(0,0,w,h);
+  var sourceBuffer32 = new Uint32Array(imgData.data.buffer);
+  ctx.fillStyle = rgb(0,0,0);
+
+  for(var x = 0; x < w; x += blocksize) {
+
+        for(var y = 0; y < h; y += blocksize) {
+
+        	var pos = (x + y * w);
+        	var b = (sourceBuffer32[pos] >> 16) & 0xff;
+			var g = (sourceBuffer32[pos] >> 8) & 0xff;
+        	var r = (sourceBuffer32[pos] >> 0) & 0xff;
+          	if (reverse == -1) {
+          		var bb = 100 - brightness(r,g,b);
+          	} else {
+          		var bb = brightness(r,g,b);
+          	}
+
+          	ctx.fillEllipse(x, y, blocksize*bb/100, blocksize*bb/100);
+
+          };
+
+        }
+    }
+
+
+
+
+function triangulate(grid_w, grid_h, alpha) {
+
+	if (grid_h == undefined) {
+		grid_h = grid_w;
+	}
+
+	if (alpha == undefined) {
+		alpha = 0.8;
+	}
+
+	var ww = Math.ceil(w/grid_w);
+	var	hh = Math.ceil(h/grid_h);
+    var imgData=ctx.getImageData(0,0,w,h);
+    ctx.clearRect(0,0,w,h);
+    //var sourceBuffer8 = new Uint8Array(imgData.data.buffer);
+    //var sourceBuffer8 = new Uint8ClampedArray(imgData.data.buffer);
+
+    var sourceBuffer32 = new Uint32Array(imgData.data.buffer);
+    var i =0;
+    for(var x = 0; x < w; x += grid_w)
+    {
+        for(var y = 0; y < h; y += grid_h)
+        {
+
+          var pos = (x + y * w);
+          var b = (sourceBuffer32[pos] >> 16) & 0xff;
+          var g = (sourceBuffer32[pos] >> 8) & 0xff;
+          var r = (sourceBuffer32[pos] >> 0) & 0xff;
+          ctx.fillStyle = rgba(r,g,b, alpha);
+
+  if (i%2) {
+	 ctx.fillTriangle(x, y - grid_h, x, y + grid_h, x - grid_w, y );
+	} else {
+		ctx.fillTriangle(x - grid_w, y - grid_h, x, y, x - grid_w , y + grid_h);
+	}
+
+	i++;
+  }
+}
+
+}
+
+
+
+// MIRROR THE CANVAS
+
+function mirror(){
+
+  var input = ctx.getImageData(0, 0, w, h);
+  var output = ctx.createImageData(w, h);
+  var inputData = input.data;
+  var outputData = output.data
+   // loop
+   for (var y = 1; y < h-1; y += 1) {
+       for (var x = 0; x < w/2; x += 1) {
+         // RGB
+         var i = (y*w + x)*4;
+         var flip = (y*w + (w/2 - x))*4;
+         for (var c = 0; c < 4; c += 1) {
+            outputData[i+c] = inputData[flip+c];
+         }
+       }
+   }
+   ctx.putImageData(output, w/2, 0);
+
+}
+
+
+
+function ScaleImage(srcwidth, srcheight, targetwidth, targetheight, fLetterBox) {
+
+    var result = { width: 0, height: 0, fScaleToTargetWidth: true };
+
+    if ((srcwidth <= 0) || (srcheight <= 0) || (targetwidth <= 0) || (targetheight <= 0)) {
+        return result;
+    }
+
+    // scale to the target width
+    var scaleX1 = targetwidth;
+    var scaleY1 = (srcheight * targetwidth) / srcwidth;
+
+    // scale to the target height
+    var scaleX2 = (srcwidth * targetheight) / srcheight;
+    var scaleY2 = targetheight;
+
+    // now figure out which one we should use
+    var fScaleOnWidth = (scaleX2 > targetwidth);
+    if (fScaleOnWidth) {
+        fScaleOnWidth = fLetterBox;
+    }
+    else {
+       fScaleOnWidth = !fLetterBox;
+    }
+
+    if (fScaleOnWidth) {
+        result.width = Math.floor(scaleX1);
+        result.height = Math.floor(scaleY1);
+        result.fScaleToTargetWidth = true;
+    }
+    else {
+        result.width = Math.floor(scaleX2);
+        result.height = Math.floor(scaleY2);
+        result.fScaleToTargetWidth = false;
+    }
+    result.targetleft = Math.floor((targetwidth - result.width) / 2);
+    result.targettop = Math.floor((targetheight - result.height) / 2);
+
+    return result;
+}
+
+
+
+var mousePressed = 0;
+var mouseReleased = 0;
+document.onmousedown = function() {
+  mousePressed = 1;
+  //window.mousePressed();
+}
+document.onmouseup = function() {
+  mousePressed = 0;
+  mouseReleased = 1;
+  //window.mouseup();
+}
+
+var mouseSpeedX = mouseSpeedX = 0;
+var mouseX = 0,
+ mouseY = 0,
+ lastMouseX = 0,
+ lastMouseY = 0,
+ oldMouseX = 0,
+ oldMouseY = 0,
+ frameRate = 60,
+ frameCount = frameNumber = 0,
+ lastUpdate = Date.now(),
+ mouseMoved = false,
+ mouseDown = false;
+
+function cjsloop() {
+
+ var now = Date.now();
+ var elapsedMils = now - lastUpdate;
+
+ if((typeof window.draw == 'function') && (elapsedMils>=(1000/window.frameRate))) {
+ window.draw();
+ frameCount++;
+ frameNumber++;
+ lastUpdate = now - elapsedMils % (1000/window.frameRate );
+ mouseSpeedX = mouseX - oldMouseX;
+ mouseSpeedY = mouseX - oldMouseX;
+ lastMouseX = oldMouseX = mouseX;
+ lastMouseY = oldMouseY = mouseY;
+ mouseReleased = 0;
+ mouseMoved = 0;
+ }
+ requestAnimationFrame(cjsloop);
+
+};
+
+// requestAnimationFrame
+// http://paulirish.com/2011/requestanimationframe-for-smart-animating/
+// http://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
+
+// requestAnimationFrame polyfill by Erik Möller
+// fixes from Paul Irish and Tino Zijdel
+
+(function() {
+    var lastTime = 0;
+    var vendors = ['ms', 'moz', 'webkit', 'o'];
+    for(var x = 0; x < vendors.length && !window.requestAnimationFrame; ++x) {
+        window.requestAnimationFrame = window[vendors[x]+'RequestAnimationFrame'];
+        window.cancelAnimationFrame = window[vendors[x]+'CancelAnimationFrame']
+                                   || window[vendors[x]+'CancelRequestAnimationFrame'];
+    }
+
+    if (!window.requestAnimationFrame)
+        window.requestAnimationFrame = function(callback, element) {
+            var currTime = new Date().getTime();
+            var timeToCall = Math.max(0, 16 - (currTime - lastTime));
+            var id = window.setTimeout(function() { callback(currTime + timeToCall); },
+              timeToCall);
+            lastTime = currTime + timeToCall;
+            return id;
+        };
+
+    if (!window.cancelAnimationFrame)
+        window.cancelAnimationFrame = function(id) {
+            clearTimeout(id);
+        };
+}());
+
+
+
+
+function init() {
+
+window.addEventListener('mousemove', function(e) {
+  mouseX = e.clientX;
+  mouseY = e.clientY;
+  mouseMoved = true;
+});
+
+window.addEventListener('mousedown', function(e){mouseDown =true; if(typeof onMouseDown == 'function') onMouseDown() ;});
+window.addEventListener('mouseup', function(e){mouseDown = false;if(typeof onMouseUp == 'function') onMouseUp()  ;});
+window.addEventListener('keydown', function(e){if(typeof onKeyDown == 'function') onKeyDown(e);});
+window.addEventListener('keyup', function(e){if(typeof onKeyUp == 'function') onKeyUp(e);});
+if(typeof window.setup == 'function') window.setup();
+cjsloop();
+}
+
+window.addEventListener('load',init);

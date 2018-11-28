@@ -1,1 +1,54 @@
-var _0x41ab=['height','createElement','canvas','querySelector','body','setAttribute','position','absolute','style','left','0px','top','appendChild','getContext','resize','webgl','addEventListener','innerWidth','length','width'];(function(_0x48d586,_0x4f4636){var _0x217f63=function(_0xf9a348){while(--_0xf9a348){_0x48d586['push'](_0x48d586['shift']());}};_0x217f63(++_0x4f4636);}(_0x41ab,0x191));var _0x5f14=function(_0x2d9574,_0x310bc9){_0x2d9574=_0x2d9574-0x0;var _0x303d18=_0x41ab[_0x2d9574];return _0x303d18;};var w,width,h,height;var canvas;function createCanvas(_0xa7abf3){canvas=document[_0x5f14('0x0')](_0x5f14('0x1'));var _0x170af7=document[_0x5f14('0x2')](_0x5f14('0x3'));canvas[_0x5f14('0x4')]('id',_0xa7abf3);canvas['style'][_0x5f14('0x5')]=_0x5f14('0x6');canvas[_0x5f14('0x7')][_0x5f14('0x8')]=_0x5f14('0x9');canvas[_0x5f14('0x7')][_0x5f14('0xa')]='0px';_0x170af7[_0x5f14('0xb')](canvas);var _0x2dbf62=canvas[_0x5f14('0xc')]('2d');resize();window['addEventListener'](_0x5f14('0xd'),resize,![]);return _0x2dbf62;}function createGLCanvas(_0x4ad9dd){canvas=document[_0x5f14('0x0')](_0x5f14('0x1'));var _0x33e6d9=document['querySelector'](_0x5f14('0x3'));canvas[_0x5f14('0x4')]('id',_0x4ad9dd);canvas[_0x5f14('0x7')]['position']=_0x5f14('0x6');canvas[_0x5f14('0x7')][_0x5f14('0x8')]='0px';canvas[_0x5f14('0x7')]['top']=_0x5f14('0x9');_0x33e6d9[_0x5f14('0xb')](canvas);var _0x115463=canvas['getContext'](_0x5f14('0xe'));if(!_0x115463)var _0x115463=canvas['getContext']('experimental-webgl');resize();window[_0x5f14('0xf')](_0x5f14('0xd'),resize,![]);return _0x115463;}function resize(){var _0xe03501=document['getElementsByTagName'](_0x5f14('0x1'));width=w=window[_0x5f14('0x10')];height=h=window['innerHeight'];for(var _0x3d2050=0x0;_0x3d2050<_0xe03501[_0x5f14('0x11')];_0x3d2050++){_0xe03501[_0x3d2050][_0x5f14('0x12')]=width;_0xe03501[_0x3d2050][_0x5f14('0x13')]=height;}}function createHiddenCanvas(_0x2ad729){var _0x5cfad3=createCanvas(_0x2ad729);canvas[_0x5f14('0x7')][_0x5f14('0x8')]=-w+'px';return _0x5cfad3;}
+
+// allows me global access to canvas and it’s width and height properties
+var w, width, h, height;
+var canvas;
+
+// this enables me to have many canvases all positioned on top of eachother at 100% width and height of page
+function createCanvas(canvas_name){
+	canvas = document.createElement('canvas');
+	var body = document.querySelector('body');
+	canvas.setAttribute("id", canvas_name);
+	canvas.style.position = "absolute";
+	canvas.style.left = "0px";
+	canvas.style.top = "0px";
+	body.appendChild(canvas);
+	var ctx = canvas.getContext('2d');
+	resize();
+	window.addEventListener("resize", resize, false);
+	return ctx;
+}
+
+
+function createGLCanvas(canvas_name){
+	canvas = document.createElement('canvas');
+	var body = document.querySelector('body');
+	canvas.setAttribute("id", canvas_name);
+	canvas.style.position = "absolute";
+	canvas.style.left = "0px";
+	canvas.style.top = "0px";
+	body.appendChild(canvas);
+	var gl = canvas.getContext('webgl');
+	if (!gl) var gl = canvas.getContext('experimental-webgl');
+	resize();
+	window.addEventListener("resize", resize, false);
+	return gl;
+}
+
+function resize(){
+	var c = document.getElementsByTagName('canvas');
+	width = w = window.innerWidth;
+	height = h = window.innerHeight;
+	for(var i = 0; i < c.length; i++) {
+		c[i].width = width;
+		c[i].height = height;
+
+	}
+	//console.log("resize: " + w +":" + h);
+}
+
+
+function createHiddenCanvas(canvas_name){
+	var ctx = createCanvas(canvas_name)
+	canvas.style.left = -w+"px";
+	return ctx;
+}
