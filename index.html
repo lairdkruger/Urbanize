@@ -129,7 +129,6 @@
                 frameRate = 60;
                   
                 if (mic.getRMS(mic.spectrum) > mic.peak_volume - 20) {
-                    ctx.lineWidth = 1000;
                     ctx.strokeStyle = rgb(0);
                     ctx.fillStyle = gradient;
                     ctx.fillRect(0, 0, w, h);
