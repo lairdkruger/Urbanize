@@ -116,7 +116,7 @@
                     pr2 = right_particles[i + 1];
                     
                     waveform = mic.mapWaveform(i, num_particles, 1, h * 3);
-                    ctx.lineWidth = (50 * waveform);
+                    ctx.lineWidth = (50 * waveform) * line_width;
                     
                     ctx.line(pl1.x, pl1.y, pl2.x, pl2.y);
                     ctx.line(pr1.x, pr1.y, pr2.x, pr2.y);
@@ -126,20 +126,16 @@
             
             //requests animation frame
             function draw(){
-                frameRate = 60;
-                  
                 if (mic.getRMS(mic.spectrum) > mic.peak_volume - 20) {
+                    line_width = 2;
                     ctx.strokeStyle = rgb(0);
                     ctx.fillStyle = gradient;
                     ctx.fillRect(0, 0, w, h);
-                    //set to 2 for bigger explosion
-                    //drawParticles(2);
                 } else {
                     
-                    ctx.lineWidth = 2;
+                    line_width = 1;
                     ctx.strokeStyle = line_colour;
                     ctx.background(0, map(mic.getRMS(mic.spectrum), 0, 100, 0.25, 0.1));
-                    //drawParticles(1);
                 }
                 
                 drawParticles(1);
