@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Urbanize</title>
+        <title>Urbanize Visualizer</title>
         
         <script src="src/canvas.js"></script>
         <script src="src/creative_coding.js"></script>
@@ -31,9 +31,9 @@
                 globalreqfullscreen.call(document.documentElement);
             });
             
-            ctx.background(0)
+
             //set to 128 for digitised effect, otherwise 512 is smooth
-            var mic = new Microphone(256);
+            var mic = new Microphone(512);
             
             //particles
             var left_particles = [];
@@ -45,10 +45,6 @@
             //var line_colour = rgb(250, 0, 0);
             var line_colour = rgb(255, 255, 255);
             var gradient = ctx.createRadialGradient(w/2, h/2, w/2, w/2, h/2, w/4);
-            //red
-            //gradient.addColorStop(1, rgb(255, 60, 0));
-            //gradient.addColorStop(0, rgb(255, 0, 0));
-            //white
             gradient.addColorStop(1, rgb(230, 230, 230));
             gradient.addColorStop(0, rgb(255, 255, 255));
             
@@ -126,16 +122,20 @@
             
             //requests animation frame
             function draw(){
+                frameRate = 120;
+                  
                 if (mic.getRMS(mic.spectrum) > mic.peak_volume - 20) {
                     line_width = 2;
                     ctx.strokeStyle = rgb(0);
                     ctx.fillStyle = gradient;
                     ctx.fillRect(0, 0, w, h);
+                    //set to 2 for bigger explosion
+                    //drawParticles(2);
                 } else {
-                    
                     line_width = 1;
                     ctx.strokeStyle = line_colour;
                     ctx.background(0, map(mic.getRMS(mic.spectrum), 0, 100, 0.25, 0.1));
+                    //drawParticles(1);
                 }
                 
                 drawParticles(1);
