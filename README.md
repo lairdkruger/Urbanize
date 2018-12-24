@@ -1,5 +1,5 @@
 # Urbanize Real-Time Sound Visualizer
-Live demo at: https://lairdkruger.github.io/Urbanize/
+live demo at: https://lairdkruger.github.io/Urbanize/
 
 **click anywhere on the screen to start the visualizer**
 
@@ -8,5 +8,5 @@ Live demo at: https://lairdkruger.github.io/Urbanize/
 - an external microphone is also recommended to maximise the input sound quality
 - be sure to refresh the page sometimes (this is not needed if the music is normalised)
 
-Controls:
+controls:
 - double click for fullscreen mode
